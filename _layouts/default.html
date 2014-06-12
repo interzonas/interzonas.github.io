@@ -1,48 +1,98 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<!doctype html>
 
-        <!-- build:css(app) /css/main.css -->
-        <!-- Syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <!-- endbuild -->
-
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                karlos g liberal<br />
-                <a href="mailto:karlosgliberal@gmail.com">karlosgliberal@gmail.com</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    <!-- build:js(app) /js/scripts.js -->
-    <script src="/js/main.js"></script>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="_bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    </body>
+    <!-- Fuentes -->
+  </head>
+  <body>
+  <div class="menu-wrapper">
+    <header id="navbar" role="banner" class="navbar container navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="logo navbar-btn pull-left" href="/es" title="Home">
+            <img src="images/logo.png" alt="Home">
+          </a>
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+          <div class="navbar-collapse collapse">
+            <nav role="navigation">
+              <ul class="menu nav navbar-nav pull-right">
+                <li class="first last leaf"><a href="/es">Home</a></li>
+                <li class="first last leaf"><a href="/es">Qué hacemos</a></li>
+                <li class="first last leaf"><a href="/es">A donde vamos</a></li>
+                </ul>          
+            </nav>
+          </div>
+      </div>
+    </header>
+  </div>
+
+  {{ content }}
+
+<footer class="footer-labs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       <p>Aqui footer</p>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+
+   <!-- build:js scripts/bower/main.js -->
+    <script src="_bower_components/jquery/jquery.js"></script>
+    <script src="_bower_components/jquery.easing/js/jquery.easing.js"></script>
+    <script src="_bower_components/page/index.js"></script>
+    <script src="_bower_components/jquery-waypoints/waypoints.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/bootstrap.js -->
+    <script src="_bower_components/bootstrap/js/affix.js"></script>
+    <script src="_bower_components/bootstrap/js/alert.js"></script>
+    <script src="_bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="_bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="_bower_components/bootstrap/js/modal.js"></script>
+    <script src="_bower_components/bootstrap/js/transition.js"></script>
+    <script src="_bower_components/bootstrap/js/button.js"></script>
+    <script src="_bower_components/bootstrap/js/popover.js"></script>
+    <script src="_bower_components/bootstrap/js/carousel.js"></script>
+    <script src="_bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="_bower_components/bootstrap/js/collapse.js"></script>
+    <script src="_bower_components/bootstrap/js/tab.js"></script>
+
+  </body>
 </html>
