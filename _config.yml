@@ -32,3 +32,5 @@ prose:
               value: "Drupal"
             - name: "js"
               value: "js"
+            - name: "node"
+              value: "node"
