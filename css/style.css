@@ -6199,6 +6199,16 @@ h6,
 .title-big {
   font-style: "Open Sans Condensed", sans-serif;
 }
+.texto-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.title-seccion {
+  font-weight: bold;
+  font-size: 41px;
+  letter-spacing: -2px;
+}
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
   min-height: 200px;
@@ -6296,4 +6306,11 @@ ul.menu-lateral {
   float: left;
   margin-right: 20px;
   margin-top: 20px;
+}
+.frase-home {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.home-post-item {
+  height: 350px;
+  overflow: hidden;
 }
