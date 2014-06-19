@@ -1,9 +1,18 @@
 ---
-layout: default
-title: Interzonas labs
+layout: seccion
 ---
-
-<h1>Esto es un post</h1>
+{% for post in site.posts %}
+  {% if post.tipo == 'blog' %}
+    <div class="wrapper-item-big home-post-item">
+      <img src="images/{{post.image}}">
+      <div class="wrapper-texto-big">
+        <h2 class="title-big">{{post.title}}</h2>
+        <p>Hirikilabs / Donosti</p>
+        {{ post.excerpt }}
+      </div>
+    </div>
+  {%  endif %}
+{% endfor %}
 
 <!-- <div class="proyectos textura-post">
   <div class="post-img-full parallax">
@@ -39,6 +48,8 @@ title: Interzonas labs
     </div>
   </section>
 </div>
+
+
   <div class="container">
 
   </div>

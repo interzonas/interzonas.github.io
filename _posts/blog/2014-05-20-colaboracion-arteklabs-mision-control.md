@@ -2,7 +2,8 @@
 layout: proyectos
 title:  "Colaboración misión control con artekalabs"
 date:   2014-05-20 11:21:04
-categories: blog
+tipo: "blog"
+categories: "blog"
 image: "leds1.jpg"
 big: 1
 columna: 0
@@ -13,6 +14,8 @@ TALLER ARDUINO
 
 PROGRAMACIÓN DE TIRAS DE LED RGB DIRECCIONABLES
 -----------------------------------------------
+
+<!--mas--> 
 
 Desde [Interzonas.info](http://interzonas.info) prarapmos este taller para una intro
 

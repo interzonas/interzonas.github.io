@@ -2,7 +2,7 @@ name: interzonas.github.io
 markdown: redcarpet
 permalink: /articles/:title/
 pygments: true
-excerpt_separator: <!--more--> 
+excerpt_separator: <!--mas--> 
 prose:
   rooturl: "_posts"
   siteurl: "http://interzonas.github.io"
