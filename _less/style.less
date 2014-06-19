@@ -2,8 +2,31 @@
 @icon-font-path: "../_bower_components/bootstrap/dist/fonts/";
 
 
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot');
+  src: url('../font/fontello.eot') format('embedded-opentype'),
+       url('../font/fontello.woff') format('woff'),
+       url('../font/fontello.ttf') format('truetype'),
+       url('../font/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// -----------
+// FUENTES
+// -----------
+
+.icon-location:before { content: '\e800'; } /* '' */
+.icon-users:before { content: '\e801'; } /* '' */
+.icon-calendar-empty:before { content: '\e802'; } /* '' */
+.icon-calendar:before { content: '\e803'; } /* '' */
+.icon-link:before { content: '\e804'; } /* '' */
+.icon-attach:before { content: '\e805'; } /* '' */
+
+
 // Colores
-@blue: #5fa7df;
+@blue: #09A2D3;
 @light_blue:#51A7DF;
 @black:#303231;
 @white:#fff;
@@ -17,6 +40,7 @@
 // Tipografías
 @open: "Open Sans", sans-serif;
 @open_con: "Open Sans Condensed", sans-serif;
+@fontello: "fontelo";
 
 //Generales
 body {
@@ -172,13 +196,26 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
 }
 
-// Menu principal
+.parallax-uno {
+    margin: 0 auto;
+    height: auto;
+    overflow: visible;
+    padding: 50px 0 100px;
+    background-attachment: fixed;
+}
+
+// -----------------
+// MENU PRINCIPAL
+// -----------------
 
 .navbar {
 	margin-bottom: 0;
-	
 	font-family: @open;
 	font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: @white;
 }
 
 
@@ -186,37 +223,44 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
 padding-top: 30px;
 padding-bottom: 30px;
 text-transform: uppercase;
+color: @white;
 }
 
 .navbar-default {
-background-color: @white;
-border-color: @white;
+background-color: @black;
+border: 0;
 }
-
 
 .navbar.container {
  margin-top: 0px; 
 }
 
-
 .menu-wrapper {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.11);
-    -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.11);
-    box-shadow: 0 1px 0 rgba(0,0,0,0.11);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.11);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.11);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.11);
+  background-color: @black;
+  border-bottom: 3px solid #F13D0A;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+  color: @white;
+  background-color: transparent;
+  opacity: 0.8;
 }
 
 .textura {
-	background-image: url("../images/lab.png");
+  background-image: url("../images/lab.png");
 }
 
-.puntal {
-	min-height: 700px;
+.textura-post {
+  background-image: url("../images/lab1.png");
 }
-
 
 // ------------------------
 // ITEMS
@@ -266,5 +310,123 @@ border-color: @white;
 // FOOTER
 // ---------------------
 .footer-labs {
+  background-image: url("../images/lab-footer-black.png");
+  min-height: 200px;
+  position: relative;
+}
+
+.platanos-wrapper {
+	position: absolute;
+	top: -53px;
+}
+
+.platanos-wrapper img {
+	width: 100px;
+}
+// ----------------
+// POST
+// ----------------
+
+.post {
+border-left: 1px solid #e3e3e3;
+padding-left: 59px;
+margin-left: 30px;
+}
+
+.talleres .post {
+	background-color: @white;
+}
+
+.date {
+display: table-cell;
+vertical-align: middle;
+line-height: 1;
+width: 61px;
+height: 61px;
+border: 1px solid @black;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background: #fff;
+font-weight: bold;
+color: @black;
+line-height: 1;
+text-transform: uppercase;
+}
+
+.date-taller {
+display: table-cell;
+vertical-align: middle;
+line-height: 1;
+width: 61px;
+height: 61px;
+border: 1px solid @blue;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background: @blue;
+font-weight: bold;
+color: @white;
+line-height: 1;
+text-transform: uppercase;
+font-size: 25px;
+}
+
+.date-wrapper {
+text-align: center;
+display: table;
+float: left;
+margin-right: 20px;
+margin-top: 20px;
+}
+
+.day {
+font-size: 20px;
+margin-bottom: 1px;
+display: block;
+}
+
+.post-img-full {
+ background-image: url("../images/leds2.jpg");
+ background-size: cover;
+ background-position: 50% 50%;
+ min-height: 200px;
+}
+
+// -----------
+// MENU INSCRIPCIÓN
+// -----------
+ul.lateral-inscripcion, ul.menu-lateral {
+list-style: none;
+margin: 0;
+padding: 0;
+line-height: 2em;
+}
+
+.menu-lateral > li {
+color: @blue;
+font-weight: bold;
+padding-left: 10px;
+}
+
+.columna-rigth {
+	background-color: @white;
+    margin-top: 20px;
+    padding: 20px 5px;
+} 
+
+.talleres {
+	background-color: #c9c9c9;
+}
+
+.title-post-seccion {
+	color: @blue;
+	margin: 30px 0px 10px 0px;
+}
+
+.icon-taller-wrapper {
+	text-align: center;
+    display: table;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
