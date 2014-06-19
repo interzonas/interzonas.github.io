@@ -41,6 +41,7 @@
 @open: "Open Sans", sans-serif;
 @open_con: "Open Sans Condensed", sans-serif;
 @fontello: "fontelo";
+@mont: "Montserrat", sans-serif;
 
 //Generales
 body {
@@ -306,6 +307,18 @@ border: 0;
 	font-style: @open_con;
 }
 
+.texto-title {
+	font-family: @mont;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.title-seccion {
+font-weight: bold;
+font-size: 41px;
+letter-spacing: -2px;
+}
+
 // ---------------------
 // FOOTER
 // ---------------------
@@ -429,4 +442,17 @@ padding-left: 10px;
     margin-right: 20px;
     margin-top: 20px;
 }
+// --------
+// FRASE HOME
+// --------
 
+.frase-home {
+	background-color: fade(@white, 50%)
+}
+
+// GENERAL
+
+.home-post-item {
+	height: 350px;
+	overflow: hidden;
+}
