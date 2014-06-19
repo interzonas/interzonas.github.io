@@ -23,6 +23,15 @@
 .icon-calendar:before { content: '\e803'; } /* '' */
 .icon-link:before { content: '\e804'; } /* '' */
 .icon-attach:before { content: '\e805'; } /* '' */
+.icon-twitter:before { content: '\e800'; } /* '' */
+.icon-facebook:before { content: '\e801'; } /* '' */
+.icon-gplus:before { content: '\e802'; } /* '' */
+.icon-linkedin:before { content: '\e803'; } /* '' */
+.icon-github:before { content: '\e804'; } /* '' */
+.icon-direction:before { content: '\e805'; } /* '' */
+.icon-move:before { content: '\e806'; } /* '' */
+.icon-gplus-1:before { content: '\e807'; } /* '' */
+.icon-twitter-1:before { content: '\e809'; } /* '' */
 
 
 // Colores
@@ -40,7 +49,7 @@
 // Tipografías
 @open: "Open Sans", sans-serif;
 @open_con: "Open Sans Condensed", sans-serif;
-@fontello: "fontelo";
+@fontello: "fontello";
 @mont: "Montserrat", sans-serif;
 @maker: "maker";
 @sketch: "Cabin Sketch", cursive;
@@ -203,7 +212,7 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
     margin: 0 auto;
     height: auto;
     overflow: visible;
-    padding: 50px 0 100px;
+    // padding: 50px 0 100px;
     background-attachment: fixed;
 }
 
@@ -263,6 +272,10 @@ border: 0;
 
 .textura-post {
   background-image: url("../images/lab1.png");
+}
+
+.logo-lab {
+	padding-top: 7%;
 }
 
 // ------------------------
@@ -327,6 +340,38 @@ font-family: @sketch;
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
   position: relative;
+  color: @white;
+}
+
+.logos-footer {
+	margin-top: 8px;	
+}
+
+.logos-footer > li {
+	display: inline;
+	padding: 0 20px;
+}
+.social-links > li {
+	display: inline;
+	padding: 0 5px;
+}
+
+.social-links li a i {
+
+font-size: 25px;
+color: @white;
+-webkit-transition: all 200ms ease-in;
+-o-transition: all 200ms ease-in;
+-moz-transition: all 200ms ease-in;
+transition: all 200ms ease-in;
+font-family: @fontello;
+font-style: normal;
+}
+
+
+.logos-footer > li.first {
+	display: inline;
+	padding: 0px;
 }
 
 .platanos-wrapper {
@@ -337,6 +382,8 @@ font-family: @sketch;
 .platanos-wrapper img {
 	width: 100px;
 }
+
+
 // ----------------
 // POST
 // ----------------

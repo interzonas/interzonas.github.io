@@ -5985,6 +5985,42 @@ td.visible-print {
   content: '\e805';
 }
 /* '' */
+.icon-twitter:before {
+  content: '\e800';
+}
+/* '' */
+.icon-facebook:before {
+  content: '\e801';
+}
+/* '' */
+.icon-gplus:before {
+  content: '\e802';
+}
+/* '' */
+.icon-linkedin:before {
+  content: '\e803';
+}
+/* '' */
+.icon-github:before {
+  content: '\e804';
+}
+/* '' */
+.icon-direction:before {
+  content: '\e805';
+}
+/* '' */
+.icon-move:before {
+  content: '\e806';
+}
+/* '' */
+.icon-gplus-1:before {
+  content: '\e807';
+}
+/* '' */
+.icon-twitter-1:before {
+  content: '\e809';
+}
+/* '' */
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -6120,7 +6156,6 @@ h6,
   margin: 0 auto;
   height: auto;
   overflow: visible;
-  padding: 50px 0 100px;
   background-attachment: fixed;
 }
 .navbar {
@@ -6167,6 +6202,9 @@ h6,
 .textura-post {
   background-image: url("../images/lab1.png");
 }
+.logo-lab {
+  padding-top: 7%;
+}
 .wrapper-texto-big {
   position: absolute;
   bottom: 0;
@@ -6209,6 +6247,32 @@ h6,
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
   position: relative;
+  color: #ffffff;
+}
+.logos-footer {
+  margin-top: 8px;
+}
+.logos-footer > li {
+  display: inline;
+  padding: 0 20px;
+}
+.social-links > li {
+  display: inline;
+  padding: 0 5px;
+}
+.social-links li a i {
+  font-size: 25px;
+  color: #ffffff;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  font-family: "fontello";
+  font-style: normal;
+}
+.logos-footer > li.first {
+  display: inline;
+  padding: 0px;
 }
 .platanos-wrapper {
   position: absolute;
