@@ -42,6 +42,8 @@
 @open_con: "Open Sans Condensed", sans-serif;
 @fontello: "fontelo";
 @mont: "Montserrat", sans-serif;
+@maker: "maker";
+@sketch: "Cabin Sketch", cursive;
 
 //Generales
 body {
@@ -304,19 +306,19 @@ border: 0;
 	font-size:20px;
 }
 .title-big {
-	font-style: @open_con;
+	
 }
 
 .texto-title {
-	font-family: @mont;
-	font-weight: bold;
+	font-family: @sketch;
 	text-transform: uppercase;
+	font-size: 77px;
 }
 
 .title-seccion {
 font-weight: bold;
-font-size: 41px;
-letter-spacing: -2px;
+font-size: 75px;
+font-family: @sketch;
 }
 
 // ---------------------
@@ -324,7 +326,6 @@ letter-spacing: -2px;
 // ---------------------
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
-  min-height: 200px;
   position: relative;
 }
 
@@ -447,7 +448,8 @@ padding-left: 10px;
 // --------
 
 .frase-home {
-	background-color: fade(@white, 50%)
+	background-color: fade(@white, 50%);
+	border-bottom: 3px dotted #ccc;
 }
 
 // GENERAL

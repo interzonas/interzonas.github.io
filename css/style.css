@@ -6196,22 +6196,18 @@ h6,
   margin: 0;
   font-size: 20px;
 }
-.title-big {
-  font-style: "Open Sans Condensed", sans-serif;
-}
 .texto-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-family: "Cabin Sketch", cursive;
   text-transform: uppercase;
+  font-size: 77px;
 }
 .title-seccion {
   font-weight: bold;
-  font-size: 41px;
-  letter-spacing: -2px;
+  font-size: 75px;
+  font-family: "Cabin Sketch", cursive;
 }
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
-  min-height: 200px;
   position: relative;
 }
 .platanos-wrapper {
@@ -6309,6 +6305,7 @@ ul.menu-lateral {
 }
 .frase-home {
   background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 3px dotted #ccc;
 }
 .home-post-item {
   height: 350px;
