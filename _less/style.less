@@ -2,6 +2,7 @@
 @icon-font-path: "../_bower_components/bootstrap/dist/fonts/";
 
 
+
 @font-face {
   font-family: 'fontello';
   src: url('../font/fontello.eot');
@@ -326,12 +327,15 @@ border: 0;
 	font-family: @sketch;
 	text-transform: uppercase;
 	font-size: 77px;
+	color: @white;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
 .title-seccion {
 font-weight: bold;
 font-size: 75px;
 font-family: @sketch;
+
 }
 
 // ---------------------
@@ -344,7 +348,7 @@ font-family: @sketch;
 }
 
 .logos-footer {
-	margin-top: 8px;	
+	margin-top: 18px;	
 }
 
 .logos-footer > li {
@@ -490,18 +494,42 @@ padding-left: 10px;
     margin-right: 20px;
     margin-top: 20px;
 }
-// --------
-// FRASE HOME
-// --------
 
-.frase-home {
-	background-color: fade(@white, 50%);
-	border-bottom: 3px dotted #ccc;
+
+.inner-home {
+	padding: 220px 0px;
 }
+
+
 
 // GENERAL
 
 .home-post-item {
 	height: 350px;
 	overflow: hidden;
+}
+
+
+// ---------
+// SLIDE CON TEXTURA
+// ---------
+
+.frase-home { 
+	border-bottom: 1px solid #232323;
+	background: url('../images/fr.jpg');
+	background-size: cover;
+	background-position: 0% 35%;
+	position: relative;
+	z-index: 16;
+ }
+ 
+.frase-home:after { 
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAGUlEQVQIW2NkYGD4D8SMQAwhYACZ8x9FBgA+pAIEV98iXwAAAABJRU5ErkJggg==);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: -1;
 }
