@@ -6238,6 +6238,8 @@ h6,
   font-family: "Cabin Sketch", cursive;
   text-transform: uppercase;
   font-size: 77px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #969696;
 }
 .title-seccion {
   font-weight: bold;
@@ -6250,11 +6252,14 @@ h6,
   color: #ffffff;
 }
 .logos-footer {
-  margin-top: 8px;
+  margin-top: 18px;
 }
 .logos-footer > li {
   display: inline;
   padding: 0 20px;
+}
+.social-links {
+  margin-top: 10px;
 }
 .social-links > li {
   display: inline;
@@ -6262,7 +6267,7 @@ h6,
 }
 .social-links li a i {
   font-size: 25px;
-  color: #ffffff;
+  color: #8f8f8f;
   -webkit-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -6331,7 +6336,6 @@ h6,
   display: block;
 }
 .post-img-full {
-  background-image: url("../images/leds2.jpg");
   background-size: cover;
   background-position: 50% 50%;
   min-height: 200px;
@@ -6367,11 +6371,34 @@ ul.menu-lateral {
   margin-right: 20px;
   margin-top: 20px;
 }
-.frase-home {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-bottom: 3px dotted #ccc;
+.inner-home {
+  padding: 220px 0px;
 }
 .home-post-item {
   height: 350px;
   overflow: hidden;
+}
+.frase-home {
+  border-bottom: 1px solid #232323;
+  background: url('../images/fr.jpg');
+  background-size: cover;
+  background-position: 0% 35%;
+  position: relative;
+  z-index: 16;
+}
+.frase-home:after {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAGUlEQVQIW2NkYGD4D8SMQAwhYACZ8x9FBgA+pAIEV98iXwAAAABJRU5ErkJggg==);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+a:hover {
+  opacity: 0.8;
+}
+.texto-siguenos {
+  color: #8f8f8f;
 }
