@@ -19,7 +19,7 @@ Con este tutorial y el kit construiremos la recreativas DIY utilizando un peque�
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
-<h2 class="title-big">Raspberry pi</h2>
+<h2 class="title-big-seccion">Raspberry pi</h2>
 <h3 class="title-post-seccion">Componentes</h3>
 
 
