@@ -290,6 +290,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0px auto;
+  width: 95%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4386,6 +4388,8 @@ a.list-group-item.active > .badge,
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0px auto;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -5276,6 +5280,8 @@ button.close {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0px auto;
+  width: 95%;
   line-height: 1;
 }
 .carousel-inner > .active,
@@ -6234,6 +6240,12 @@ h6,
   margin: 0;
   font-size: 20px;
 }
+.title-big {
+  color: #09a2d3;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
 .texto-title {
   font-family: "Cabin Sketch", cursive;
   text-transform: uppercase;
@@ -6245,6 +6257,10 @@ h6,
   font-weight: bold;
   font-size: 75px;
   font-family: "Cabin Sketch", cursive;
+}
+.title-post-seccion {
+  color: #09a2d3;
+  margin: 20px 0px 10px 0px;
 }
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
@@ -6360,10 +6376,6 @@ ul.menu-lateral {
 .talleres {
   background-color: #c9c9c9;
 }
-.title-post-seccion {
-  color: #09a2d3;
-  margin: 30px 0px 10px 0px;
-}
 .icon-taller-wrapper {
   text-align: center;
   display: table;
@@ -6401,4 +6413,17 @@ a:hover {
 }
 .texto-siguenos {
   color: #8f8f8f;
+}
+.img-responsive {
+  margin: 0px auto;
+  width: 95%;
+}
+.img-footer {
+  color: #8f8f8f;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+.img-wrapper {
+  margin: 20px 0;
 }
