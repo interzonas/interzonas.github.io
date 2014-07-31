@@ -1,6 +1,7 @@
 ---
 layout: entrada
 title:  "Como montar tu propia arcade con Raspberry pi y mame"
+subtitulo: "Hirikilabs / Donostia"
 date:   2014-07-25 11:21:04
 tipo: "talleres"
 categories: "talleres"
@@ -44,28 +45,34 @@ Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar 
 Para montar la arcade tenemos el diseño de la carcasa realizado para [http://www.arqma.es/](Arquimaña). El montaje tiene una serie de pasos determinado por esta carcasa y que si tienes tu propio diseño podría ser distinto. 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/carcasaunida.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Carcasa arcade diseñada por Arquimaña</div>
 </div>
 
 La primera parte consiste en desmontar la carcasa para poder montar la botonera.
 <div class="img-wrapper">
   <img src="{{site.url}}/images/carcasabotones1.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Paso montaje botonera</div>
 </div>
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/carcasabotones2.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Botonera y lateral </div>
 </div>
 
 Una vez que tenemos montada la parte mecánica montando todos los botones, tendríamos que cablear estos botones lo explicaremos en la sección de la respberry pi ya que hemos usado unos jumpers para facilitar esta tarea.
 
 Para alimentar la pantalla tft y la Raspberry Pi hacemos uso de una sola fuente de alimentación (de 2 amperios)
+
 <div class="img-wrapper">
   <img src="{{site.url}}/images/fuentecable.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Fuente de alimentación y cable micro usb</div>
 </div>
 
 Tenemos que cortar el cable de salida de la fuente de alimentación para contarlos mediante soldadura con el cable micro usb y el cable de alimentación de la pantalla. 
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablesconectados.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Conexión cable micro usb con pantalla y con fuente de alimentación </div>
 </div>
 
 Es importante diferenciar cada cable sus positivos y sus negativos. 
@@ -78,6 +85,7 @@ Esta fuente de alimentación nos da 2 amperios en 5 y 12 voltios, el cable amari
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablefuente.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Sección de cable fuente de alimentación</div>
 </div>
 
 Para alimentar la raspberry necesitamos 5 voltios
@@ -85,21 +93,24 @@ En la imagen de abajo podemos ver el corte del cable micro usb que alimentara la
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cableusb.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Sección cable micro usb (usamos el blanco y el negro) solo alimentación</div>
 </div>
 
 Ahora tenemos que conectar el cable de la pantalla con la fuente de alimentación pero necesitamos 12v, la relación de cables es negro de la pantalla con amarillo de la fuente alimentación (tierra) y rojo de la pantalla con rojo de la fuente de alimentación. Abajo la imagen del cable de la pantalla
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablepantalla.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Cable de pantalla, con fuente conexión pantalla y entradas de video</div>
 </div>
 
 En esta otra imagen podemos ver todas las conexiones realizadas dejando las tres piezas unidas, fuente de alimentación, cable usb, pantalla. 
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablesconectado.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Todas las conexiones</div>
 </div>
 
-<h3 class="title-post-seccion">Mame</h3>
+<h2 class="title-post-seccion">Mame</h2>
 
 Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar, el emuldor mas famoso es mame.
 
