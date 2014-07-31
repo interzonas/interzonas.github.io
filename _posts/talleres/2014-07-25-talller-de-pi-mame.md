@@ -8,7 +8,7 @@ categories: "talleres"
 image: "pimame.jpg"
 big: 1
 columna: 0
-menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><li>Descripción</li><li>Componentes</li><li>Github</li><li>Descargas</li></ul></div>'
+menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><li>Componentes</li><li>Montaje</li><li>Mame</li><li>Raspberry pi</li></ul></div>'
 embebido: '<h2 class="title-big-seccion">Historia en el Twitter</h2><div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>'
 ---
 
@@ -122,6 +122,7 @@ Nuestro Arcade que se enfoca en el emulador MAME queremos que pueda funcionar si
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/tresbotones.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Tres botones con pantalla y lateral sin montar</div>
 </div>
 
 Con los 5 botones y el jostick podemos movernos por la interfaz del Piplay y también jugar
@@ -137,12 +138,14 @@ Hemos modificado la configuración por defecto de Pi play en mame para que el bo
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/configure-joystick.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Menú de acceso en la mame a la configuración del teclado</div>
 </div>
 
 Para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menún de configuración de Mame nosotros hemos accedido al apartado de input para cambier la asignación de boton1 
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/menuinput.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Mapeo del teclado de la mame</div>
 </div>
 
 Aquí el menú de asignaciones de teclas, nosotros hemos modificado el P1 Button 1 asignándole la tecla "enter"
@@ -157,6 +160,7 @@ En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) t
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/pi.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Logo Raspberry pi</div>
 </div>
 
 Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo coste, desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas. (Wikipedia)
@@ -171,17 +175,20 @@ Si nuestra raspberry esta conectada a una redl, podemos cargar roms de una maner
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/uno_rom.png" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Acceso servidor web para la subida de roms</div>
 </div>
 
 Pulsamos en Rom Uploader
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/dos.png" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Localización de los directorios dependiendo de emulador</div>
 </div>
 
 Veremos un listado de directorios por emuladores, en nuestro caso nos interesa añadir mas roms a la carpeta advmame. Seleccionamos el directorio.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/tres.png" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Directorio para subir la rom</div>
 </div>
 
