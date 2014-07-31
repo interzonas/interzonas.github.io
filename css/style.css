@@ -6439,3 +6439,17 @@ a:hover {
 .img-wrapper {
   margin: 20px 0;
 }
+.video-section .pattern-overlay {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAGUlEQVQIW2NkYGD4D8SMQAwhYACZ8x9FBgA+pAIEV98iXwAAAABJRU5ErkJggg==);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 130px 0px;
+}
+.video-section {
+  background-color: #30322D;
+}
+.video-section .buttonBar {
+  display: none;
+}
+.player {
+  font-size: 1px;
+}
