@@ -7,7 +7,8 @@ categories: "talleres"
 image: "pimame.jpg"
 big: 1
 columna: 0
-menu: '<div class="col-sm-3 columna-rigth"><ul class="menu-lateral"><li>Descripción</li><li>Componentes</li><li>Github</li><li>Descargas</li></ul></div>'
+menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><li>Descripción</li><li>Componentes</li><li>Github</li><li>Descargas</li></ul></div>'
+embebido: '<h2 class="title-big-seccion">Historia en el Twitter</h2><div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>'
 ---
 
 En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las caracterí­sticas de estas antiguas máquinas.
@@ -163,4 +164,3 @@ Veremos un listado de directorios por emuladores, en nuestro caso nos interesa a
 <img src="{{site.url}}/images/tres.png" class="img-responsive" alt="Responsive image">
 </div>
 
-<div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>
