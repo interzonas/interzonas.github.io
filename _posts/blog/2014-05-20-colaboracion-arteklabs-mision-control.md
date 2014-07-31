@@ -5,8 +5,8 @@ date:   2014-05-20 11:21:04
 tipo: "blog"
 categories: "blog"
 image: "leds1.jpg"
-big: 1
-columna: 0
+big: 0
+columna: 1
 ---
 
 TALLER ARDUINO

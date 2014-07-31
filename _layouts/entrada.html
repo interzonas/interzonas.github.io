@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="proyectos textura-post">
-  <div class="post-img-full parallax" style="background-image: url('../images/pimame.jpg')">
+  <div class="post-img-full parallax" style="background-image: url('{{site.url}}/images/{{page.image}}')">
 
   </div>
   <section class="post-content inner">
@@ -20,6 +20,7 @@ layout: default
           {{content}}
         </div>
      </div>
+     {{page.menu}}
       <div class="col-sm-4">
         <h3>Esto es el lateral</h3>
         <ul class="lateral-inscripcion">
@@ -30,6 +31,11 @@ layout: default
           <li><div class="">35€</div></li>
           <li><div class=""><button type="button" class="btn btn-primary">Inscripción</button></div></li>
         </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {{page.embebido}}
       </div>
     </div>
   </section>

@@ -10,60 +10,55 @@ title: Interzonas labss
         </p>
       </div>
     </div>
-  </div>
+</div>
 <div class="proyectos textura inner parallax-uno">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
       {% for post in site.posts %}
         {% if post.big == 1 %}
+         <a href="{{post.url}}">
           <div class="wrapper-item-big">
             <img src="images/{{post.image}}">
             <div class="wrapper-texto-big">
               <h2 class="title-big">{{post.title}}</h2>
-              <p>Hirikilabs / Donosti aaa</p>
+              <p>{{post.subtitulo}}</p>
             </div>
           </div>
+        </a>
         {% endif %}
        {% endfor %}
       </div>
       <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
       {% for post in site.posts %}
         {% if post.columna == 1 %}
+         <a href="{{post.url}}">
           <div class="wrapper-item-small">
-            <img src="http://regmedia.co.uk/2013/05/20/32_way_raspberry_pi_cluster.jpg">
+            <img src="images/{{post.image}}">
             <div class="wrapper-texto-small">
               <h2 class="title-small">{{post.title}}</h2>
-              <p>Hirikilabs / Donosti aaa</p>
+              <p>{{post.subtitulo}}</p>
             </div>
           </div>
+        </a>
         {% endif %}
        {% endfor %}
       </div>
       <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
       {% for post in site.posts %}
         {% if post.columna == 2 %}
+         <a href="{{post.url}}">
           <div class="wrapper-item-small">
-            <img src="http://regmedia.co.uk/2013/05/20/32_way_raspberry_pi_cluster.jpg">
+            <img src="images/{{post.image}}">
             <div class="wrapper-texto-small">
               <h2 class="title-small">{{post.title}}</h2>
-              <p>Hirikilabs / Donosti aaa</p>
+              <p>{{post.subtitulo}}</p>
             </div>
           </div>
+        </a>
         {% endif %}
        {% endfor %}
       </div>
     </div>
   </div>
 </div>
-
-
-
-<!-- <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span class="purple">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div> -->
