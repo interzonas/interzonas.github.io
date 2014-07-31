@@ -6236,6 +6236,9 @@ h6,
 .wrapper-item-small img {
   max-width: 100%;
 }
+.white {
+  color: #ffffff;
+}
 .title-small {
   margin: 0;
   font-size: 20px;
@@ -6384,7 +6387,7 @@ ul.menu-lateral {
   margin-top: 20px;
 }
 .inner-home {
-  padding: 220px 0px;
+  padding: 165px 0px 80px 0;
 }
 .home-post-item {
   height: 350px;
@@ -6392,9 +6395,10 @@ ul.menu-lateral {
 }
 .frase-home {
   border-bottom: 1px solid #232323;
-  background: url('../images/fr.jpg');
+  background: url('../images/wood1.png');
+  background-color: #000;
   background-size: cover;
-  background-position: 0% 35%;
+  background-position: 0% 38%;
   position: relative;
   z-index: 16;
 }
@@ -6413,6 +6417,10 @@ a:hover {
 }
 .texto-siguenos {
   color: #8f8f8f;
+}
+.texto-home {
+  color: #ffffff;
+  font-size: 21px;
 }
 .img-responsive {
   margin: 0px auto;
