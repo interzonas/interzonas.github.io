@@ -4,13 +4,15 @@ layout: talleres
 <h1>{{page.tipo}}</h1>
 {% for post in site.posts %}
   {% if post.tipo == 'talleres' %}
-    <a href="{{post.url}}"><div class="wrapper-item-big home-post-item">
+    <a href="{{post.url}}">
+      <div class="wrapper-item-big home-post-item">
       <img src="images/{{post.image}}">
       <div class="wrapper-texto-big">
         <h2 class="title-big">{{post.title}}</h2>
         <p>Hirikilabs / Donosti</p>
         {{ post.excerpt }}
       </div>
-    </div></a>
+    </div>
+  </a>
   {%  endif %}
 {% endfor %}
