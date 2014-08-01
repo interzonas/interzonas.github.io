@@ -6453,7 +6453,7 @@ a:hover {
 .player {
   font-size: 1px;
 }
-.wrapper-item-big img {
+.home-post-item img {
   margin-top: 0px;
   -webkit-transition: margin 1s ease;
   -moz-transition: margin 1s ease;
@@ -6461,6 +6461,9 @@ a:hover {
   -ms-transition: margin 1s ease;
   transition: margin 1s ease;
 }
-.wrapper-item-big img:hover {
+.home-post-item img:hover {
   margin-top: -200px;
+}
+.social-links a:hover {
+  text-decoration: none;
 }
