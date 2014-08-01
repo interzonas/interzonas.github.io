@@ -8,7 +8,7 @@ categories: "talleres"
 image: "pimame.jpg"
 big: 1
 columna: 0
-menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><li>Componentes</li><li>Montaje</li><li>Mame</li><li>Raspberry pi</li></ul></div>'
+menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><a href="#componentes"><li>Componentes</li></a><a href="#montaje"><li>Montaje</li></a><a href="#mame"><li>Mame</li></a><a href="#raspberry"><li>Raspberry pi</li></a></ul></div>'
 embebido: '<h2 class="title-big-seccion">Historia en el Twitter</h2><div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>'
 ---
 
@@ -21,6 +21,7 @@ Con este tutorial y el kit construiremos la recreativas DIY utilizando un peque�
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
+<a name="componentes"></a>
 <h2 class="title-big-seccion">Componentes</h2>
 
 Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar tu propia Arcade, esta es la lista de componentes. 
