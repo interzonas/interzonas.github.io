@@ -21,6 +21,7 @@ Con este tutorial y el kit construiremos la recreativas DIY utilizando un peque�
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
+<!-- montaje-->
 <a name="componentes"></a>
 <h2 class="title-big-seccion">Componentes</h2>
 
@@ -40,7 +41,10 @@ Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar 
   <img src="{{site.url}}/images/componentespimame.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Listado de componentes</div>
 </div>
+<!--fin-->
 
+<!-- montaje-->
+<a name="montaje"></a>
 <h2 class="title-big-seccion">Montaje</h2>
 
 Para montar la arcade tenemos el diseño de la carcasa realizado para [http://www.arqma.es/](Arquimaña). El montaje tiene una serie de pasos determinado por esta carcasa y que si tienes tu propio diseño podría ser distinto. 
@@ -110,14 +114,37 @@ En esta otra imagen podemos ver todas las conexiones realizadas dejando las tres
   <img src="{{site.url}}/images/cablesconectado.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Todas las conexiones</div>
 </div>
+<!--fin-->
 
-<h2 class="title-post-seccion">Mame</h2>
+
+<!--Raspberry pi-->
+<a name="raspberry"></a>
+<h2 class="title-big-seccion">Raspberry pi</h2>
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/pi.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Logo Raspberry pi</div>
+</div>
+
+Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo coste, desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas. (Wikipedia).
+
+En nuestro arcade Raspberry pi es el cerebro, hacemos uso de la tarjeta gráfica para poder contextarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es minimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución pyplay para dejar configurado la biblioteca de adafruit para nuestra disposición de teclas (relacionadas con los botones).
+
+La tarjeta SD hace dos funciónes, por un lado se instala el sistema operativo, (En nuestro caso una verisón de de debian para raspberry) y por otro lado el espacio libre, lo usamos como sistema de almacenamiento para depositar las roms. 
+
+Para poder cargar la imagen que nos descargamos de pymame
+<!--fin-->
+
+
+<!--mame-->
+<a name="mame"></a>
+<h2 class="title-big-seccion">Mame</h2>
 
 Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar, el emuldor mas famoso es mame.
 
 El Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas, las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (wikipedia)
 
-Nosotros para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms. 
+Nosotros para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
 
 Nuestro Arcade que se enfoca en el emulador MAME queremos que pueda funcionar sin teclado.
 
@@ -151,24 +178,17 @@ Para cambiar esta configuración necesitamos el teclado, dándole a tabulador po
 
 Aquí el menú de asignaciones de teclas, nosotros hemos modificado el P1 Button 1 asignándole la tecla "enter"
 
-
 En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) tenemos un foro de discusión sobre roms de mame que funcionan correctamente en la raspberry py
 
 [http://coolrom.com/](coolrom.com) Es la web con un gran cantidad de jugos para nuestros emuladores
+<!--fin-->
 
+<!--Piplay-->
+<a name="raspberry"></a>
+<h2 class="title-big-seccion">Pi play</h2>
+DEFINICIón 
 
-<h2 class="title-big-seccion">Raspberry pi</h2>
-
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/pi.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Logo Raspberry pi</div>
-</div>
-
-Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo coste, desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas. (Wikipedia)
-
-En nuestro arcade Raspberry pi es el cerebro, la com
-
-<strong>Cargar roms en el kit</strong>
+<h3 class="title-post-seccion">Cargar roms en el kit</h3>
 
 Una vez que tengamos nuestro kit montado y queremos añadir mas roms la distribución Piplay nos lo pone muy fácil, solo tendremos que conectar la raspberry a una red local y mediante un equipo remoto se pueden subir Roms.
 
@@ -192,4 +212,8 @@ Veremos un listado de directorios por emuladores, en nuestro caso nos interesa a
   <img src="{{site.url}}/images/tres.png" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Directorio para subir la rom</div>
 </div>
+<!--fin-->
+
+
+
 
