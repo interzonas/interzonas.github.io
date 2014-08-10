@@ -8,24 +8,25 @@ categories: "talleres"
 image: "pimame.jpg"
 big: 1
 columna: 0
-menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><a href="#componentes"><li>Componentes</li></a><a href="#montaje"><li>Montaje</li></a><a href="#mame"><li>Mame</li></a><a href="#raspberry"><li>Raspberry pi</li></a></ul></div>'
+menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><a href="#componentes"><li>Componentes</li></a><a href="#montaje"><li>Montaje</li></a><a href="#raspberry"><li>Raspberry pi</li></a><a href="#mame"><li>Mame</li></a><a href="#piplay"><li>Pi play</li></a></ul></div>'
 embebido: '<h2 class="title-big-seccion">Historia en el Twitter</h2><div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>'
 ---
 
-En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las caracterí­sticas de estas antiguas máquinas.
+En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las características de estas antiguas máquinas.
+
 <!--mas-->
 
-Esta es la documentación para la construcción del kit Arcade Pi mame. 
+Esta es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [http://interzonas.info](Interzonas). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los compoentes por tu cuenta.
 
 Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre (Raspberry Pi), sobre el que se instala un distribución (piplay) que emula los juegos clásicos de 8 bits de la época inicial de los videojuegos. Esta documentación la usamos para un taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar los joysticks, pantalla y pulsadores y, además, comenzaremos a introducirnos en el mundo de Raspberry Pi instalando y configurando el emulador MAME y cargando juegos.
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
-<!-- montaje-->
+<!--Componentes-->
 <a name="componentes"></a>
 <h2 class="title-big-seccion">Componentes</h2>
 
-Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar tu propia Arcade, esta es la lista de componentes. 
+Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar tu propia Arcade, esta es la lista de componentes.
 
 * Fuente de alimentación dual 12v + 5v
 * Cable Mini usb
@@ -37,6 +38,7 @@ Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar 
 * 3 botones de maniobra
 * Pantalla de 7” TFT con entrada VGA
 
+
 <div class="img-wrapper">
   <img src="{{site.url}}/images/componentespimame.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Listado de componentes</div>
@@ -47,7 +49,15 @@ Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar 
 <a name="montaje"></a>
 <h2 class="title-big-seccion">Montaje</h2>
 
-Para montar la arcade tenemos el diseño de la carcasa realizado para [http://www.arqma.es/](Arquimaña). El montaje tiene una serie de pasos determinado por esta carcasa y que si tienes tu propio diseño podría ser distinto. 
+El montaje esta muy determiando a la carcaras sobre todo en la botonera pero para dar un orientación serian tres fase diferentes.
+
+* Carcasa: Nosotros estamos usando el estupendo diseño realizao por [http://www.arqma.es/](Arquimaña) y es el que repartimos en los talleres.
+* Fuente de alimentación: Aquí es donde montamos el cableado que alimente la Raspberry y la pantalla así.
+* Cableado botonera: Montaje y cableado de la botonera.
+* Conexión Gpio: El cableado de la botonera acaba conectado al sistema de puertos de las raspberry Gpio
+
+
+Para montar la arcade tenemos el diseño de la carcasa realizado para [http://www.arqma.es/](Arquimaña). El montaje tiene una serie de pasos determinado por esta carcasa y que si tienes tu propio diseño podría ser distinto.
 <div class="img-wrapper">
   <img src="{{site.url}}/images/carcasaunida.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Carcasa arcade diseñada por Arquimaña</div>
@@ -64,7 +74,7 @@ La primera parte consiste en desmontar la carcasa para poder montar la botonera.
   <div class="img-footer">Botonera y lateral </div>
 </div>
 
-Una vez que tenemos montada la parte mecánica montando todos los botones, tendríamos que cablear estos botones lo explicaremos en la sección de la respberry pi ya que hemos usado unos jumpers para facilitar esta tarea.
+<h3 class="title-post-seccion">Fuente de alimentación</h3>
 
 Para alimentar la pantalla tft y la Raspberry Pi hacemos uso de una sola fuente de alimentación (de 2 amperios)
 
@@ -73,14 +83,14 @@ Para alimentar la pantalla tft y la Raspberry Pi hacemos uso de una sola fuente 
   <div class="img-footer">Fuente de alimentación y cable micro usb</div>
 </div>
 
-Tenemos que cortar el cable de salida de la fuente de alimentación para contarlos mediante soldadura con el cable micro usb y el cable de alimentación de la pantalla. 
+Tenemos que cortar el cable de salida de la fuente de alimentación para contarlos mediante soldadura con el cable micro usb y el cable de alimentación de la pantalla.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablesconectados.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Conexión cable micro usb con pantalla y con fuente de alimentación </div>
 </div>
 
-Es importante diferenciar cada cable sus positivos y sus negativos. 
+Es importante diferenciar cada cable sus positivos y sus negativos.
 
 Esta fuente de alimentación nos da 2 amperios en 5 y 12 voltios, el cable amarillo es negativo y dependiendo con que lo usemos (blanco o rojo) nos dará 5 o 12 voltios.
 
@@ -94,7 +104,7 @@ Esta fuente de alimentación nos da 2 amperios en 5 y 12 voltios, el cable amari
 </div>
 
 Para alimentar la raspberry necesitamos 5 voltios
-En la imagen de abajo podemos ver el corte del cable micro usb que alimentara la raspberry. Para obtner los 5 voltios que necesitamos tenemos que unir el cable negro micro usb con el amarillo de la fuente (tierra) y el rojo de del usb con el blanco de la fuente de alimentación. 
+En la imagen de abajo podemos ver el corte del cable micro usb que alimentara la raspberry. Para obtner los 5 voltios que necesitamos tenemos que unir el cable negro micro usb con el amarillo de la fuente (tierra) y el rojo de del usb con el blanco de la fuente de alimentación.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cableusb.jpg" class="img-responsive" alt="Responsive image">
@@ -105,15 +115,54 @@ Ahora tenemos que conectar el cable de la pantalla con la fuente de alimentació
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablepantalla.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Cable de pantalla, con fuente conexión pantalla y entradas de video</div>
+  <div class="img-footer">Cable de pantalla, con fuente conexión pantalla y entradas de vídeo</div>
 </div>
 
-En esta otra imagen podemos ver todas las conexiones realizadas dejando las tres piezas unidas, fuente de alimentación, cable usb, pantalla. 
+En esta otra imagen podemos ver todas las conexiones realizadas dejando las tres piezas unidas, fuente de alimentación, cable usb, pantalla.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cablesconectado.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Todas las conexiones</div>
 </div>
+
+<h3 class="title-post-seccion">Cableado botonera</h3>
+
+El acade queremos que sea autónomo y que pueda función completamente sin la necesidad de usar un teclado, para lograrlos tenemos el Jostick y los 5 botones, estos botones tienen que conectarse de una forma especifica al Gpio de las raspberry (Hablaremos de eso mas adelante) pero la idea es que cada boton tinene su propios lugar en el sistema de puertos de nuestra rpi. Por lo tanto necesitaremos soldar un cable en cada uno de los botones que irá a las rapberry y que luego configuraremos para que sepa que hemos pulsado el botón, y soldaremos otro cable para que también vaya a la Rpi pero en este caso a unos puertos especiales llamados GND o tierras.
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/cableado.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Soldaduras de los cables en los botones</div>
+</div>
+
+Es importante ser ordenado en esta fase sobre todo en el jostick que tendremos que tener identificados que cable es cada cosa. En el taller usamos cinta aislante de colores para poner el nombre del cable (arriba, abajo, boton1, ESC, etc)
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/cableado0.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Replanteo de todas las soldaduras de los cables y preparación de las cintas identificativas </div>
+</div>
+
+Una vez que tenemos todo cableado y montado tenemos que probarlo antes de cerrar la carcasa. En la foto de abajo se puede ver como todos los cables están identificados y como también estan las conexiónes echas en entre los botones y el Gpio de raspberry.
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/cableado1.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Todas el cablado y conexiones realizadas</div>
+</div>
+
+<h3 class="title-post-seccion">Conexión Gpio</h3>
+
+La raspberry como producto educativo que es tiene a nuestra disposición de un conjunto de pines que se les llama GPIO. En la Wikipedia esto lo describen de esta manera:
+
+GPIO (General Purpose Input/Output, Entrada/Salida de Propósito General) es un pin genérico en un chip, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
+
+Nosotros hemos mapeado estos puertos para que una vez detecta el cierre del circuito mediante la pulsación de un botón (o el movimiento de la palanca del jostick) el ordenador interprete esta acción como si la pulsación de una tecla se tratará. Esto lo hacemos con un pequeño programa creado por Adafruit y que nosotros hemos modificado. En la imagen siguiente se puede ver nuestro mapeo.
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/gpio.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Esquema y mapeo del GPIO con el sistema de botones </div>
+</div>
+
+En la sección  de las raspberry explicaremos como hacemos función este mapeo
+
 <!--fin-->
 
 
@@ -130,7 +179,7 @@ Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo co
 
 En nuestro arcade Raspberry pi es el cerebro, hacemos uso de la tarjeta gráfica para poder contextarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es minimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución pyplay para dejar configurado la biblioteca de adafruit para nuestra disposición de teclas (relacionadas con los botones).
 
-La tarjeta SD hace dos funciónes, por un lado se instala el sistema operativo, (En nuestro caso una verisón de de debian para raspberry) y por otro lado el espacio libre, lo usamos como sistema de almacenamiento para depositar las roms. 
+La tarjeta SD hace dos funciónes, por un lado se instala el sistema operativo, (En nuestro caso una verisón de de debian para raspberry) y por otro lado el espacio libre, lo usamos como sistema de almacenamiento para depositar las roms.
 
 Para poder cargar la imagen que nos descargamos de pymame
 <!--fin-->
@@ -159,17 +208,17 @@ Con los 5 botones y el jostick podemos movernos por la interfaz del Piplay y tam
 * Botón 1
 * Botón 2
 * 1 player
-* Insert coin 
+* Insert coin
 * Menu (Esc)
 
-Hemos modificado la configuración por defecto de Pi play en mame para que el boton 1 haga las veces de enter y así podamos navegar y entrar en los distintos menús. 
+Hemos modificado la configuración por defecto de Pi play en mame para que el boton 1 haga las veces de enter y así podamos navegar y entrar en los distintos menús.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/configure-joystick.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Menú de acceso en la mame a la configuración del teclado</div>
 </div>
 
-Para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menún de configuración de Mame nosotros hemos accedido al apartado de input para cambier la asignación de boton1 
+Para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menún de configuración de Mame nosotros hemos accedido al apartado de input para cambier la asignación de boton1
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/menuinput.jpg" class="img-responsive" alt="Responsive image">
@@ -184,9 +233,9 @@ En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) t
 <!--fin-->
 
 <!--Piplay-->
-<a name="raspberry"></a>
+<a name="piplay"></a>
 <h2 class="title-big-seccion">Pi play</h2>
-DEFINICIón 
+DEFINICIón
 
 <h3 class="title-post-seccion">Cargar roms en el kit</h3>
 
