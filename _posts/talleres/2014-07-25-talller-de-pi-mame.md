@@ -1,7 +1,6 @@
 ---
 layout: entrada
-title:  "Cómo montar tu propia arcade con Raspberry pi y mame"
-description "Revisar"
+title:  "Como montar tu propia arcade con Raspberry pi y mame"
 subtitulo: "Hirikilabs / Donostia"
 date:   2014-07-25 11:21:04
 tipo: "talleres"
@@ -27,7 +26,7 @@ Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por 
 
 <!--Componentes-->
 <a name="componentes"></a>
-<h2 class="title-big-seccion">Componentes del Mame Raspberry pi</h2>
+<h2 class="title-big-seccion">Componentes del Mame Raspberry</h2>
 
 Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar tu propia Arcade, esta es la lista de componentes.
 
