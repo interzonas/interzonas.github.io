@@ -5,6 +5,7 @@ date:   2014-05-20 11:21:04
 tipo: "talleres"
 categories: "talleres"
 image: "leds2.jpg"
+published: false
 big: 1
 columna: 0
 menu: '<div class="col-sm-3 columna-rigth"><ul class="menu-lateral"><li>Descripción</li><li>Componentes</li><li>Github</li><li>Descargas</li></ul></div>'
@@ -29,6 +30,6 @@ Más o menos normal de las letras, al contrario de usar textos como por ejemplo 
 <h3 class="title-post-seccion">Descargas</h3>
 <a class="github" href="/" target="_blank">Ejercicios</a>
 <a class="github" href="/" target="_blank">Código</a>
- 
+
 
 
