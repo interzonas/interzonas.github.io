@@ -16,11 +16,11 @@ En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy
 
 <!--mas-->
 
-Esta es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los componentes por tu cuenta.
+Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los componentes por tu cuenta.
 
-Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/), sobre el que se instala un distribución [piplay](http://pimame.org/) que emula los juegos clásicos de 8 bits de la época inicial de los videojuegos.
+Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/), sobre el que se instala un distribución [piplay](http://pimame.org/) que emula los juegos clásicos de la época inicial de los videojuegos.
 
-Esta es la documentación  para el taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar los joystick, pantalla y pulsadores y además comenzaremos a introducirnos en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
+Esta es la documentación  para el taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar el joystick, pantalla, pulsadores y además comenzaremos a introducirnos en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
@@ -34,7 +34,7 @@ Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar 
 * Cable Mini usb
 * 1 cable RCA Macho/Macho
 * Jumpers Hembra
-* Raspeberry pi
+* Raspberry pi
 * Joystick
 * 2 botones de juego
 * 3 botones de maniobra
@@ -63,7 +63,7 @@ El montaje esta muy determinado a la carcasa sobre todo en la botonera pero para
 Para montar la arcade tenemos el diseño de la carcasa realizado para [Arquimaña](http://www.arqma.es/). El montaje tiene una serie de pasos determinado por esta carcasa y que si tienes tu propio diseño podría ser distinto.
 <div class="img-wrapper">
   <img src="{{site.url}}/images/carcasaunida.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Carcasa arcade diseñada por [http://www.arqma.es/](Arquimaña)</div>
+  <div class="img-footer">Carcasa arcade</div>
 </div>
 
 La primera parte consiste en desmontar la carcasa para poder montar la botonera.
@@ -93,7 +93,7 @@ Tenemos que cortar el cable de salida de la fuente de alimentación para conecta
   <div class="img-footer">Conexión cable micro usb con pantalla y con fuente de alimentación </div>
 </div>
 
-Es importante diferenciar cada cable sus positivos y sus negativos, y como en nuestro caso si la fuente te permite alimentar las dos piezas (pantalla y Raspberry) tener clara las equivalencias en los cables a conectar
+Es importante diferenciar cada cable sus positivos y sus negativos, y como en nuestro caso si la fuente te permite alimentar las dos piezas (pantalla y Raspberry) hay que tener claro las equivalencias en los cables a conectar
 
 _Estas son nuestras equivalencias_
 * Amarillo + Rojo = 12V
@@ -130,7 +130,7 @@ En esta otra imagen podemos ver todas las conexiones realizadas dejando las tres
 
 <h3 class="title-post-seccion">Cableado botonera</h3>
 
-El arcade queremos que sea autónomo y que pueda funcionar completamente sin la necesidad de usar un teclado, para lograrlos tenemos el Jostick y los 5 botones, estos botones tienen que conectarse de una forma especifica al Gpio de las Raspberry (Hablaremos de eso mas adelante) pero la idea es que cada botón tienen su propios lugar en el sistema de puertos de nuestra Raspberry. Por lo tanto necesitaremos soldar un cable en cada uno de los botones que irá a las Raspberry y que luego configuraremos para que sepa que hemos pulsado el botón, y soldaremos otro cable para que también vaya a la Rpi pero en este caso a unos puertos especiales llamados GND o tierras.
+El arcade queremos que sea autónomo y que pueda funcionar completamente sin la necesidad de usar un teclado, para lograrlo tenemos el Joystick y los 5 botones, estos botones tienen que conectarse de una forma especifica al Gpio de las Raspberry (Hablaremos de eso mas adelante) pero la idea es que cada botón tienen su propio lugar en el sistema de puertos de nuestra Raspberry. Por lo tanto necesitaremos soldar un cable en cada uno de los botones que irá a las Raspberry y que luego configuraremos para que sepa que hemos pulsado el botón, y soldaremos otro cable para que también vaya a la Raspberry pero en este caso a unos puertos especiales llamados GND o tierras.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cableado.jpg" class="img-responsive" alt="Responsive image">
@@ -148,16 +148,16 @@ Una vez que tenemos todo cableado y montado tenemos que probarlo antes de cerrar
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cableado1.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Todas el cableado y conexiones realizadas</div>
+  <div class="img-footer">Cableado y conexiones realizadas</div>
 </div>
 
 <h3 class="title-post-seccion">Conexión Gpio</h3>
 
-La Raspberry como producto educativo que es tiene a nuestra disposición de un conjunto de pines que se les llama GPIO. En la Wikipedia esto lo describen de esta manera:
+La Raspberry como producto educativo que es pone a nuestra disposición un conjunto de pines que se llamados GPIO. En la Wikipedia esto lo describen de esta manera:
 
 GPIO (General Purpose Input/Output, Entrada/Salida de Propósito General) es un pin genérico en un chip, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
 
-Nosotros hemos mapeado estos puertos para que una vez detecta el cierre del circuito mediante la pulsación de un botón (o el movimiento de la palanca del joystick) el ordenador interprete esta acción como si la pulsación de una tecla se tratará. Esto lo hacemos con un pequeño programa creado por Adafruit y que nosotros hemos modificado. En la imagen siguiente se puede ver nuestro mapeo.
+Nosotros hemos mapeado estos puertos para que una vez que se detecta el cierre del circuito mediante la pulsación de un botón (o el movimiento de la palanca del joystick) el ordenador interprete esta acción como si la pulsación de una tecla se tratará. Esto lo hacemos con un pequeño programa creado por Adafruit y que nosotros hemos modificado. En la imagen siguiente se puede ver nuestro mapeo.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/gpio.jpg" class="img-responsive" alt="Responsive image">
@@ -188,7 +188,7 @@ En la sección  de las Raspberry explicaremos como hacemos función este mapeo.
 
 Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo coste, desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas. (Wikipedia).
 
-En nuestro arcade Raspberry pi es el cerebro, hacemos uso de la tarjeta gráfica para poder conectarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es mínimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución Pyplay para dejar configurado la biblioteca de Adafruit para nuestra disposición de teclas (relacionadas con los botones).
+En nuestro arcade Raspberry pi es el cerebro, hacemos uso de la tarjeta gráfica para poder conectarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es mínimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución Piplay para dejar configurada la biblioteca de Adafruit para nuestra disposición de teclas (relacionadas con los botones).
 
 La tarjeta SD hace dos funciones, por un lado se instala el sistema operativo (En nuestro caso una versión de de Debian para Raspberry) y por otro lado el espacio libre lo usamos como sistema de almacenamiento para las roms.
 
@@ -203,7 +203,7 @@ Una vez instalada la distribución se tiene que hacer overclock desde el menú d
 * core_freq=300
 * sdram_freq=500
 
-Si habéis instalado nuestra imagen preparada de Piplay la tendrás configurada para poder jugar y con los 5 botones y el joystick manejarte por los menús de configuración tanto de Piplay como del Juego. En caso contrario tendrás que instalar la aplicación de Adafruit que convierte las pulsaciones de los botones en letras.
+Si habéis instalado nuestra imagen preparada de Piplay la tendrás configurada para poder jugar con los 5 botones y el joystick. Podras manejarte por los menús de configuración tanto de Piplay como del Juego. En caso contrario tendrás que instalar la aplicación de Adafruit que convierte las pulsaciones de los botones en letras.
 
 En [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi) tienes otro estupendo tutorial para montarte un Arcade con Raspberry y aquí tienes el [código del programa](https://github.com/adafruit/Adafruit-Retrogame)
 
@@ -218,7 +218,7 @@ En el proyecto [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with
 <a name="mame"></a>
 <h2 class="title-big-seccion">Mame</h2>
 
-Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar, el emulador mas famoso es mame.
+Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar, en esto caso nos hemos centrado en Mame.
 
 Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas, las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
 
@@ -247,7 +247,7 @@ Hemos modificado la configuración por defecto de Piplay en mame para que el bot
   <div class="img-footer">Menú de acceso en la mame a la configuración del teclado</div>
 </div>
 
-Para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menú de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1
+Solo para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menú de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/menuinput.jpg" class="img-responsive" alt="Responsive image">
@@ -265,7 +265,7 @@ En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) t
 <!--Piplay-->
 <a name="piplay"></a>
 <h2 class="title-big-seccion">Piplay</h2>
-Como ya hemos ido comentado Pyplay (antes Pymame) es la distribución especialmente montada para poder usar emuladores en la Raspberry pi. Es un proyecto vivo y con mucho movimiento.
+Como ya hemos ido comentado Piplay (antes Pimame) es la distribución especialmente montada para poder usar emuladores en la Raspberry pi. Es un proyecto vivo y con mucho movimiento.
 
 La propia distribución tiene muchas emuladores y opciones, este tutorial no abarca su configuración pero vemos interesante explicar como subir roms
 
@@ -273,7 +273,7 @@ La propia distribución tiene muchas emuladores y opciones, este tutorial no aba
 
 Una vez que tengamos nuestro kit montado y queremos añadir mas roms la distribución Piplay nos lo pone muy fácil, solo tendremos que conectar la Raspberry a una red local y mediante un equipo remoto se pueden subir Roms.
 
-Si nuestra Raspberry esta conectada a una red, podemos cargar roms de una manera muy sencilla. Desde otro equipo, abrimos un navegador y tecleamos la dirección ip de la Raspberry ( se muestra en la parte derecha del Pyplay).
+Si nuestra Raspberry esta conectada a una red, podemos cargar roms de una manera muy sencilla. Desde otro equipo, abrimos un navegador y tecleamos la dirección ip de la Raspberry ( se muestra en la parte derecha del Piplay).
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/uno_rom.png" class="img-responsive" alt="Responsive image">

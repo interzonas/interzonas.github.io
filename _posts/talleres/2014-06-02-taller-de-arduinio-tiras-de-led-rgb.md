@@ -5,7 +5,7 @@ date:   2014-05-20 11:21:04
 tipo: "talleres"
 categories: "talleres"
 image: "leds2.jpg"
-published: true
+published: false
 big: 1
 columna: 0
 menu: '<div class="col-sm-3 columna-rigth"><ul class="menu-lateral"><li>Descripción</li><li>Componentes</li><li>Github</li><li>Descargas</li></ul></div>'
