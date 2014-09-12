@@ -6179,7 +6179,7 @@ h6,
   color: #ffffff;
 }
 .navbar-default {
-  background-color: #303231;
+  background-color: #000000;
   border: 0;
 }
 .navbar.container {
@@ -6193,7 +6193,7 @@ h6,
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
-  background-color: #303231;
+  background-color: #000000;
   border-bottom: 3px solid #F13D0A;
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -6209,7 +6209,7 @@ h6,
   background-image: url("../images/lab1.png");
 }
 .logo-lab {
-  padding-top: 7%;
+  padding-top: 3px;
 }
 .wrapper-texto-big {
   position: absolute;
@@ -6397,16 +6397,16 @@ ul.menu-lateral {
   padding-left: 60px;
   margin-left: 30px;
 }
-.frase-home {
+.presentacion {
   border-bottom: 1px solid #232323;
-  background: url('../images/wood1.png');
+  background: url('../images/fr.jpg');
   background-color: #000;
   background-size: cover;
-  background-position: 0% 38%;
+  background-position: bottom;
   position: relative;
   z-index: 16;
 }
-.frase-home:after {
+.presentacion:after {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAGUlEQVQIW2NkYGD4D8SMQAwhYACZ8x9FBgA+pAIEV98iXwAAAABJRU5ErkJggg==);
   content: "";
   position: absolute;
@@ -6466,4 +6466,13 @@ a:hover {
 }
 .social-links a:hover {
   text-decoration: none;
+}
+.presentacion {
+  background-color: #000000;
+  padding: 100px 0px;
+  border-bottom: 2px solid #F13D0A;
+}
+.img-logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 40px 0px;
 }
