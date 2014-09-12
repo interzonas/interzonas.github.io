@@ -6,7 +6,6 @@ date:   2014-07-25 11:21:04
 tipo: "talleres"
 categories: "talleres"
 image: "pimame.jpg"
-published: false
 big: 1
 columna: 0
 menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><a href="#componentes"><li>Componentes</li></a><a href="#montaje"><li>Montaje</li></a><a href="#raspberry"><li>Raspberry pi</li></a><a href="#mame"><li>Mame</li></a><a href="#piplay"><li>Pi play</li></a></ul></div>'
@@ -17,11 +16,11 @@ En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy
 
 <!--mas-->
 
-Esta es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los compoentes por tu cuenta.
+Esta es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los componentes por tu cuenta.
 
 Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/), sobre el que se instala un distribución [piplay](http://pimame.org/) que emula los juegos clásicos de 8 bits de la época inicial de los videojuegos.
 
-Esta es la documentación  para el taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar los joysticks, pantalla y pulsadores y además comenzaremos a introducirnos en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
+Esta es la documentación  para el taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar los joystick, pantalla y pulsadores y además comenzaremos a introducirnos en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
@@ -80,7 +79,7 @@ La primera parte consiste en desmontar la carcasa para poder montar la botonera.
 
 <h3 class="title-post-seccion">Fuente de alimentación</h3>
 
-Para alimentar la pantalla tft y la Raspberry Pi hacemos uso de una sola fuente de alimentación. Esta fuente de alimentación nos da 2 amperios en 5 y 12 voltios, el cable amarillo es negativo y dependiendo con que lo usemos (blanco o rojo) nos dará 5 o 12 voltios.
+Para alimentar la pantalla Tft y la Raspberry Pi hacemos uso de una sola fuente de alimentación. Esta fuente de alimentación nos da 2 amperios en 5 y 12 voltios, el cable amarillo es negativo y dependiendo con que lo usemos (blanco o rojo) nos dará 5 o 12 voltios.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/fuentecable.jpg" class="img-responsive" alt="Responsive image">
@@ -138,7 +137,7 @@ El arcade queremos que sea autónomo y que pueda funcionar completamente sin la 
   <div class="img-footer">Soldaduras de los cables en los botones</div>
 </div>
 
-Es importante ser ordenado en esta fase sobre todo en el jostick que tendremos que tener identificados que cable es cada cosa. En el taller usamos cinta aislante de colores para poner el nombre del cable (arriba, abajo, boton1, ESC, etc)
+Es importante ser ordenado en esta fase sobre todo en el joystick que tendremos que tener identificados que cable es cada cosa. En el taller usamos cinta aislante de colores para poner el nombre del cable (arriba, abajo, boton1, ESC, etc)
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/cableado0.jpg" class="img-responsive" alt="Responsive image">
@@ -189,14 +188,14 @@ En la sección  de las Raspberry explicaremos como hacemos función este mapeo.
 
 Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo coste, desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas. (Wikipedia).
 
-En nuestro arcade Raspberry pi es el cerebro, hacemos uso de la tarjeta gráfica para poder conectarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es minimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución Pyplay para dejar configurado la biblioteca de Adafruit para nuestra disposición de teclas (relacionadas con los botones).
+En nuestro arcade Raspberry pi es el cerebro, hacemos uso de la tarjeta gráfica para poder conectarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es mínimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución Pyplay para dejar configurado la biblioteca de Adafruit para nuestra disposición de teclas (relacionadas con los botones).
 
 La tarjeta SD hace dos funciones, por un lado se instala el sistema operativo (En nuestro caso una versión de de Debian para Raspberry) y por otro lado el espacio libre lo usamos como sistema de almacenamiento para las roms.
 
 Tenemos esta imagen preparada que es la que usamos para el taller.
 [Descargar Piplay Interzonas](https://mega.co.nz/#!pQpzAR4K!nXhC1OT0LXtC_piNWXIwI-dxibT331H_q0qFhT8do9E)
 
-Para poder instalar esta imagen en buestras tarjeta SD existen muchas maneras de hacerlos, dependerá en parte de tu sistema Operativo, os dejo este [enlace](http://computers.tutsplus.com/articles/how-to-flash-an-sd-card-for-raspberry-pi--mac-53600) con un bueno tutorial de como hacerlo en distintos sistemas
+Para poder instalar esta imagen en vuestras tarjeta SD existen muchas maneras de hacerlos, dependerá en parte de tu sistema Operativo, os dejo este [enlacee](http://computers.tutsplus.com/articles/how-to-flash-an-sd-card-for-raspberry-pi--mac-53600) con un bueno tutorial de como hacerlo en distintos sistemas
 
 Una vez instalada la distribución se tiene que hacer overclock desde el menú de configuración de Piplay estos son los valores a añadir:
 
@@ -204,11 +203,11 @@ Una vez instalada la distribución se tiene que hacer overclock desde el menú d
 * core_freq=300
 * sdram_freq=500
 
-Si habéis instalado nuestra imagen preparada de Piplay la tendrás configurada para poder jugar y con los 5 botones y el joystick manejarte por los menús de configuración tanto de Piplay como del Juego. En caso contrario tendrás que instalar la aplicación de adafruit que convierte las pulsaciones de los botones en letras.
+Si habéis instalado nuestra imagen preparada de Piplay la tendrás configurada para poder jugar y con los 5 botones y el joystick manejarte por los menús de configuración tanto de Piplay como del Juego. En caso contrario tendrás que instalar la aplicación de Adafruit que convierte las pulsaciones de los botones en letras.
 
 En [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi) tienes otro estupendo tutorial para montarte un Arcade con Raspberry y aquí tienes el [código del programa](https://github.com/adafruit/Adafruit-Retrogame)
 
-[En nuestro repositorio](https://github.com/interzonas/Adafruit-Retrogame) tienes el código modificado para que funcione con 5 botenes.
+[En nuestro repositorio](https://github.com/interzonas/Adafruit-Retrogame) tienes el código modificado para que funcione con 5 botones.
 
 En el proyecto [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi) tienes la info de como instalar el programa
 
@@ -221,7 +220,7 @@ En el proyecto [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with
 
 Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar, el emulador mas famoso es mame.
 
-El Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas, las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (wikipedia)
+Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas, las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
 
 Nosotros para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para Raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
 
@@ -232,7 +231,7 @@ Nuestro Arcade que se enfoca en el emulador MAME queremos que pueda funcionar si
   <div class="img-footer">Tres botones con pantalla y lateral sin montar</div>
 </div>
 
-Con los 5 botones y el jostick podemos movernos por la interfaz del Piplay y también jugar
+Con los 5 botones y el joystick podemos movernos por la interfaz del Piplay y también jugar
 
 * Joystick
 * Botón 1
@@ -248,7 +247,7 @@ Hemos modificado la configuración por defecto de Piplay en mame para que el bot
   <div class="img-footer">Menú de acceso en la mame a la configuración del teclado</div>
 </div>
 
-Para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menún de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1
+Para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menú de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/menuinput.jpg" class="img-responsive" alt="Responsive image">
