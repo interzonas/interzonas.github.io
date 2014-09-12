@@ -8,7 +8,7 @@ categories: "talleres"
 image: "pimame.jpg"
 big: 1
 columna: 0
-menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><a href="#componentes"><li>Componentes</li></a><a href="#montaje"><li>Montaje</li></a><a href="#raspberry"><li>Raspberry pi</li></a><a href="#mame"><li>Mame</li></a><a href="#piplay"><li>Pi play</li></a></ul></div>'
+menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><li><a href="#componentes">Componentes</a></li><li><a href="#montaje">Montaje</a></li><li><a href="#raspberry">Raspberry pi</a></li><li><a href="#mame">Mame</a></li><li><a href="#piplay">Pi play</a></li></ul></div>'
 embebido: '<h2 class="title-big-seccion">Historia en el Twitter</h2><div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>'
 ---
 

@@ -6298,13 +6298,6 @@ h6,
   display: inline;
   padding: 0px;
 }
-.platanos-wrapper {
-  position: absolute;
-  top: -53px;
-}
-.platanos-wrapper img {
-  width: 100px;
-}
 .post {
   border-left: 1px solid #e3e3e3;
   padding-left: 59px;
@@ -6371,10 +6364,13 @@ ul.menu-lateral {
   font-weight: bold;
   padding-left: 10px;
 }
+.menu-lateral a {
+  text-decoration: none;
+}
 .columna-rigth {
   background-color: #ffffff;
   margin-top: 20px;
-  padding: 20px 5px;
+  padding: 20px 30px;
 }
 .talleres {
   background-color: #c9c9c9;
@@ -6390,7 +6386,7 @@ ul.menu-lateral {
   padding: 165px 0px 80px 0;
 }
 .home-post-item {
-  height: 350px;
+  height: 450px;
   overflow: hidden;
 }
 .embebido-wrapper {
@@ -6439,20 +6435,6 @@ a:hover {
 .img-wrapper {
   margin: 20px 0;
 }
-.video-section .pattern-overlay {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAGUlEQVQIW2NkYGD4D8SMQAwhYACZ8x9FBgA+pAIEV98iXwAAAABJRU5ErkJggg==);
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 130px 0px;
-}
-.video-section {
-  background-color: #30322D;
-}
-.video-section .buttonBar {
-  display: none;
-}
-.player {
-  font-size: 1px;
-}
 .home-post-item img {
   margin-top: 0px;
   -webkit-transition: margin 1s ease;
@@ -6462,10 +6444,20 @@ a:hover {
   transition: margin 1s ease;
 }
 .home-post-item img:hover {
-  margin-top: -200px;
+  margin-top: -20px;
 }
 .social-links a:hover {
   text-decoration: none;
+}
+.home-post-item .title-big {
+  transition: all 170ms ease-in;
+  opacity: 0.9;
+}
+.home-post-item .title-big:hover {
+  opacity: 0.999;
+}
+.home-post-item p {
+  opacity: 0.7;
 }
 .presentacion {
   background-color: #000000;
