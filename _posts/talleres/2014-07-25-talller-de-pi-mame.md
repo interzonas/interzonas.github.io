@@ -6,6 +6,7 @@ date:   2014-07-25 11:21:04
 tipo: "talleres"
 categories: "talleres"
 image: "pimame.jpg"
+published: false
 big: 1
 columna: 0
 menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-lateral"><a href="#componentes"><li>Componentes</li></a><a href="#montaje"><li>Montaje</li></a><a href="#raspberry"><li>Raspberry pi</li></a><a href="#mame"><li>Mame</li></a><a href="#piplay"><li>Pi play</li></a></ul></div>'
