@@ -19,7 +19,7 @@ PROGRAMACIÓN DE TIRAS DE LED RGB DIRECCIONABLES
 
 <!--mas-->
 
-Desde [Interzonas.info](http://interzonas.info) prarapmos este taller para una intro
+Desde [Interzonas.info](http://interzonas.info) preparamos este taller para una intro
 
 Esto son los ejercicios del taller que realizamos en [Hirikilabs](http://hirikilabs.tabakalera.eu/).
 
