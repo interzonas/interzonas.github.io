@@ -1,12 +1,14 @@
 ---
 layout: proyectos
-title:  "Colaboración misión control con artekalabs"
-date:   2014-05-20 11:21:04
-tipo: "blog"
-categories: "blog"
-image: "leds1.jpg"
+category: post
+title: Colaboración misión control con artekalabs
+date: {}
+tipo: blog
+categories: blog
+image: leds1.jpg
 big: 0
 columna: 1
+published: false
 ---
 
 TALLER ARDUINO
@@ -44,5 +46,3 @@ TODO
 * Fotos de los esquemas 
 * Revisión de los comentarios
 * Añadir algun ejemplo mas
-
-
