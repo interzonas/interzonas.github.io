@@ -265,7 +265,7 @@ En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) t
 <!--Piplay-->
 <a name="piplay"></a>
 <h2 class="title-big-seccion">Piplay</h2>
-Como ya hemos ido comentado pyplay (antes Pymame) es la distribución especialmente montada para poder usar emuladores en la Raspberry pi. Es un proyecto vivo y con mucho movimiento.
+Como ya hemos ido comentado Pyplay (antes Pymame) es la distribución especialmente montada para poder usar emuladores en la Raspberry pi. Es un proyecto vivo y con mucho movimiento.
 
 La propia distribución tiene muchas emuladores y opciones, este tutorial no abarca su configuración pero vemos interesante explicar como subir roms
 
@@ -273,7 +273,7 @@ La propia distribución tiene muchas emuladores y opciones, este tutorial no aba
 
 Una vez que tengamos nuestro kit montado y queremos añadir mas roms la distribución Piplay nos lo pone muy fácil, solo tendremos que conectar la Raspberry a una red local y mediante un equipo remoto se pueden subir Roms.
 
-Si nuestra Raspberry esta conectada a una red, podemos cargar roms de una manera muy sencilla. Desde otro equipo, abrimos un navegador y tecleamos la dirección ip de la Rspberry ( se muestra en la parte derecha del Pyplay).
+Si nuestra Raspberry esta conectada a una red, podemos cargar roms de una manera muy sencilla. Desde otro equipo, abrimos un navegador y tecleamos la dirección ip de la Raspberry ( se muestra en la parte derecha del Pyplay).
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/uno_rom.png" class="img-responsive" alt="Responsive image">
