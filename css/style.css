@@ -290,8 +290,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0px auto;
-  width: 100%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4388,8 +4386,6 @@ a.list-group-item.active > .badge,
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0px auto;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -5280,8 +5276,6 @@ button.close {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0px auto;
-  width: 100%;
   line-height: 1;
 }
 .carousel-inner > .active,
@@ -6214,10 +6208,8 @@ h6,
 .wrapper-texto-big {
   position: absolute;
   bottom: 0;
-  width: 100%;
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
-  padding: 5px 140px 23px;
 }
 .wrapper-texto-small {
   position: absolute;
@@ -6422,10 +6414,6 @@ a:hover {
   color: #ffffff;
   font-size: 21px;
 }
-.img-responsive {
-  margin: 0px auto;
-  width: 100%;
-}
 .img-footer {
   color: #8f8f8f;
   font-size: 12px;
@@ -6463,6 +6451,11 @@ a:hover {
   background-color: #000000;
   padding: 100px 0px;
   border-bottom: 2px solid #F13D0A;
+}
+@media (max-width: 767px) {
+  .presentacion {
+    padding: 50px 0px;
+  }
 }
 .img-logo {
   background-color: rgba(0, 0, 0, 0.5);

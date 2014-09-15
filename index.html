@@ -21,8 +21,11 @@ title: Interzonas labss
   </div>
 </section> -->
 <div class="presentacion">
-      <div class="row"><div class="img-logo center">
-        <img class="" src="/images/logo-h.png" alt="Interzonas labs">
+      <div class="row">
+        <div class="center">
+          <div class="col-md-12 col-xs-6 col-xs-offset-3 img-logo ">
+           <img class="img-responsive" src="/images/logo-h.png" alt="Interzonas labs">
+         </div>
       </div>
     </div>
 </div>
@@ -33,15 +36,14 @@ title: Interzonas labss
         {% for post in site.posts %}
           <a href="{{post.url}}">
             <div class="wrapper-item-big home-post-item">
-            <img src="images/{{post.image}}">
-         
+              <img src="images/{{post.image}}">
             <div class="wrapper-texto-big">
+             <div class="col-md-10 col-md-offset-1">
               <h2 class="title-big">{{post.title}}</h2>
               <p>Hirikilabs / Donosti</p>
               {{ post.excerpt }}
+              </div>
             </div>
-          
-
           </div>
         </a>
       {% endfor %}
