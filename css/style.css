@@ -6399,9 +6399,9 @@ ul.menu-lateral {
   text-decoration: none;
 }
 .columna-rigth {
-  background-color: #ffffff;
+  background-color: rgba(214, 214, 214, 0.2);
   margin-top: 20px;
-  padding: 20px 30px;
+  padding: 20px 30px 36px 25px;
 }
 .talleres {
   background-color: #c9c9c9;
