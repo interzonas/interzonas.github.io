@@ -6398,7 +6398,7 @@ ul.menu-lateral {
   background: url('../images/fr.jpg');
   background-color: #000;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   position: relative;
   z-index: 16;
 }
