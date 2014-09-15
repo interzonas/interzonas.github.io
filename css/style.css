@@ -6379,7 +6379,9 @@ strong {
   content: '\2022 ';
   padding-right: 0.5em;
   color: #09a2d3;
-  font-size: 15px;
+  position: relative;
+  top: 2px;
+  font-size: 18px;
 }
 ul.lateral-inscripcion,
 ul.menu-lateral {
