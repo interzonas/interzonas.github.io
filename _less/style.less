@@ -47,6 +47,7 @@
 
 
 // Tipografías
+@icon: 'Glyphicons Halflings';
 @open: "Open Sans", sans-serif;
 @open_con: "Open Sans Condensed", sans-serif;
 @fontello: "fontello";
@@ -92,6 +93,10 @@ font-family: @open;
 
 .shadow {
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}
+
+strong {
+	color: @blue;
 }
 
 // Margins y paddings
@@ -192,9 +197,9 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
 	width: 100%;
   height: 85px;
 }
-
-//Parallax 
-
+// ----
+// PARALLAX
+// ----
 .parallax {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -285,9 +290,8 @@ color: @white;
 .wrapper-texto-big {
 	position: absolute;
 	bottom: 0;
-	background: fade(@black_extra, 60%);
+	background: fade(@black_extra, 80%);
 	color: @white;
-	// padding: 5px 140px 23px;
 }
 .wrapper-texto-small {
 	position: absolute;
@@ -369,6 +373,11 @@ color: @white;
 
 .social-links {
 	margin-top: 16px;
+		@media (max-width: @screen-xs-max) { 
+		margin-top: 26px;
+		border-top: 1px solid #524A4A;
+		padding-top: 15px;
+		}
 }
 
 .social-links > li {
@@ -391,8 +400,8 @@ color: @white;
 .logos-footer > li.first {
 	display: inline;
 	padding: 0px;
+	@media (max-width: @screen-xs-max) { padding: 0px 20px; line-height: 4em; }
 }
-
 
 
 
@@ -404,6 +413,7 @@ color: @white;
 	border-left: 1px solid #e3e3e3;
 	padding-left: 59px;
 	margin-left: 30px;
+	@media (max-width: @screen-xs-max) { padding-left: 0; margin-left: 0; border-left: none;}
 	}
 
 .talleres .post {
@@ -424,6 +434,7 @@ color: @white;
 	color: @black;
 	line-height: 1;
 	text-transform: uppercase;
+	@media (max-width: @screen-xs-max) { display: none; }
 	}
 
 .date-taller {
@@ -463,6 +474,16 @@ color: @white;
  min-height: 200px;
 }
 
+.post ul {
+		list-style-type: none;
+	 li:before {
+    content: '\2022 ';
+    padding-right: 0.5em;
+    color: @blue;
+    font-size: 15px;
+   }
+}
+
 // -----------
 // MENU INSCRIPCIÓN
 // -----------
@@ -500,7 +521,6 @@ ul.lateral-inscripcion, ul.menu-lateral {
     margin-right: 20px;
     margin-top: 20px;
 }
-
 
 .inner-home {
 	padding: 165px 0px 80px 0;
@@ -601,7 +621,7 @@ a:hover {
 .home-post-item {
 	.title-big {
 		transition: all 170ms ease-in;
-		opacity: 0.9;
+		opacity: 0.8;
 		&:hover{
 			opacity: 0.999;
 		}
@@ -627,5 +647,9 @@ a:hover {
 .img-logo { 
 	background-color: fade(@black_power, 50%);
 	padding: 20px 0px 40px 0px;
+}
+
+.texto-post-home {
+	margin-bottom: 25px;
 }
 

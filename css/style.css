@@ -6062,6 +6062,9 @@ h6,
 .shadow {
   text-shadow: 0px 2px 0px #000000;
 }
+strong {
+  color: #09a2d3;
+}
 .m0 {
   margin: 0;
 }
@@ -6208,7 +6211,7 @@ h6,
 .wrapper-texto-big {
   position: absolute;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   color: #ffffff;
 }
 .wrapper-texto-small {
@@ -6272,6 +6275,13 @@ h6,
 .social-links {
   margin-top: 16px;
 }
+@media (max-width: 767px) {
+  .social-links {
+    margin-top: 26px;
+    border-top: 1px solid #524A4A;
+    padding-top: 15px;
+  }
+}
 .social-links > li {
   display: inline;
   padding: 0 5px;
@@ -6290,10 +6300,23 @@ h6,
   display: inline;
   padding: 0px;
 }
+@media (max-width: 767px) {
+  .logos-footer > li.first {
+    padding: 0px 20px;
+    line-height: 4em;
+  }
+}
 .post {
   border-left: 1px solid #e3e3e3;
   padding-left: 59px;
   margin-left: 30px;
+}
+@media (max-width: 767px) {
+  .post {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+  }
 }
 .talleres .post {
   background-color: #ffffff;
@@ -6311,6 +6334,11 @@ h6,
   color: #303231;
   line-height: 1;
   text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .date {
+    display: none;
+  }
 }
 .date-taller {
   display: table-cell;
@@ -6343,6 +6371,15 @@ h6,
   background-size: cover;
   background-position: 50% 50%;
   min-height: 200px;
+}
+.post ul {
+  list-style-type: none;
+}
+.post ul li:before {
+  content: '\2022 ';
+  padding-right: 0.5em;
+  color: #09a2d3;
+  font-size: 15px;
 }
 ul.lateral-inscripcion,
 ul.menu-lateral {
@@ -6439,7 +6476,7 @@ a:hover {
 }
 .home-post-item .title-big {
   transition: all 170ms ease-in;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .home-post-item .title-big:hover {
   opacity: 0.999;
@@ -6460,4 +6497,7 @@ a:hover {
 .img-logo {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 0px 40px 0px;
+}
+.texto-post-home {
+  margin-bottom: 25px;
 }
