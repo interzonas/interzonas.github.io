@@ -6398,10 +6398,6 @@ ul.menu-lateral {
 .menu-lateral a {
   text-decoration: none;
 }
-.columna-rigth {
-  margin-top: 20px;
-  padding: 20px 30px 36px 25px;
-}
 .talleres {
   background-color: #c9c9c9;
 }
@@ -6504,4 +6500,15 @@ a:hover {
 }
 .texto-post-home {
   margin-bottom: 25px;
+}
+.wrapper-contacto {
+  padding: 10px;
+  margin-top: 30px;
+  border: 1px solid #d6d6d6;
+  border-radius: 3px 3px;
+  background-color: rgba(214, 214, 214, 0.24);
+}
+.title-menu-lateral {
+  border-left: 2px solid #303231;
+  padding-left: 10px;
 }
