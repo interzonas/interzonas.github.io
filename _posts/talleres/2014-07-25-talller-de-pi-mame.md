@@ -22,7 +22,7 @@ Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi 
 
 Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/) sobre el cual se instala una distribución [Piplay](http://pimame.org/) que emula los juegos clásicos de la época inicial de los videojuegos.
 
-Esta es la documentación para el taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar el joystick, pantalla, pulsadores y además comenzaremos a introducirnos en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
+Además, este tutorial es la documentación utilizada para el taller teórico-práctico en el que construimos la carcasa de madera de la máquina recreativa, aprendemos a conectar el joystick, pantalla, pulsadores y además nos introduce en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
