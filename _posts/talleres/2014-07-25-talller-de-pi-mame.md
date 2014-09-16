@@ -220,13 +220,13 @@ En el proyecto [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with
 <a name="mame"></a>
 <h2 class="title-big-seccion">Mame</h2>
 
-Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar. En esto caso nos hemos centrado en Mame.
+Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar. En esto caso nos hemos centrado en MAME.
 
-Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas, las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
+Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas. Las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
 
-Nosotros para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para Raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
+En nuestro caso para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para Raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
 
-Nuestro Arcade que se enfoca en el emulador MAME queremos que pueda funcionar sin teclado.
+Nuestro Arcade que se enfoca en el emulador MAME funciona sin teclado.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/tresbotones.jpg" class="img-responsive" alt="Responsive image">
@@ -246,21 +246,21 @@ Hemos modificado la configuración por defecto de Piplay en mame para que el bot
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/configure-joystick.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Menú de acceso en la mame a la configuración del teclado</div>
+  <div class="img-footer">Menú de acceso en la MAME a la configuración del teclado</div>
 </div>
 
-Solo para cambiar esta configuración necesitamos el teclado, dándole a tabulador podemos acceder a este menú de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1
+Para cambiar esta configuración necesitamos un teclado, dándole a tabulador podemos acceder a este menú de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/menuinput.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Mapeo del teclado de la mame</div>
 </div>
 
-Aquí el menú de asignaciones de teclas, nosotros hemos modificado el P1 Button 1 asignándole la tecla "enter"
+Aquí en el menú de asignaciones de teclas, nosotros hemos modificado el P1 Button 1 asignándole la tecla "enter"
 
-En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) tenemos un foro de discusión sobre roms de mame que funcionan correctamente en la Raspberry py
+En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) tenemos un foro de discusión sobre roms de MAME que funcionan correctamente en la Raspberry pi
 
-[http://coolrom.com/](coolrom.com) Es la web con un gran cantidad de jugos para nuestros emuladores
+[http://coolrom.com/](coolrom.com) Es la web con un gran cantidad de juegos para nuestros emuladores
 
 <!--fin-->
 
@@ -269,11 +269,11 @@ En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) t
 <h2 class="title-big-seccion">Piplay</h2>
 Como ya hemos ido comentado Piplay (antes Pimame) es la distribución especialmente montada para poder usar emuladores en la Raspberry pi. Es un proyecto vivo y con mucho movimiento.
 
-La propia distribución tiene muchas emuladores y opciones, este tutorial no abarca su configuración pero vemos interesante explicar como subir roms
+La propia distribución tiene muchos emuladores y opciones. Este tutorial no abarca su configuración pero vemos interesante explicar cómo subir roms
 
 <h3 class="title-post-seccion">Cargar roms en el kit</h3>
 
-Una vez que tengamos nuestro kit montado y queremos añadir mas roms la distribución Piplay nos lo pone muy fácil, solo tendremos que conectar la Raspberry a una red local y mediante un equipo remoto se pueden subir Roms.
+Una vez que tengamos nuestro kit montado y queremos añadir más roms la distribución Piplay nos lo pone muy fácil, solo tendremos que conectar la Raspberry a una red local y mediante un equipo remoto se pueden subir Roms.
 
 Si nuestra Raspberry esta conectada a una red, podemos cargar roms de una manera muy sencilla. Desde otro equipo, abrimos un navegador y tecleamos la dirección ip de la Raspberry ( se muestra en la parte derecha del Piplay).
 
