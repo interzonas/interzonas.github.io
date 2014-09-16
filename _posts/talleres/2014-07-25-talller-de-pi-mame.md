@@ -18,11 +18,14 @@ En la década de los 80 los videojuegos se jugaban en **máquinas recreativas**.
 
 <!--mas-->
 
-Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y MAME. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info) en colaboración con [Hirikilabs](http://hirikilabs.tabakalera.eu/). El tutorial está realizado con el material que aportamos en el taller, pero será similar si buscas los componentes por tu cuenta.
+Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y MAME. 
 
-Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/) sobre el cual se instala una distribución [Piplay](http://pimame.org/) que emula los juegos clásicos de la época inicial de los videojuegos.
+Además, este artículo es la documentación utilizada para el taller teórico-práctico realizado por [Interzonas](http://interzonas.info) en colaboración con [Hirikilabs](http://hirikilabs.tabakalera.eu/). Taller en el que construimos la carcasa de madera de la máquina recreativa, aprendemos a conectar el joystick, pantalla, pulsadores, y además nos introduce en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.  
 
-Además, este tutorial es la documentación utilizada para el taller teórico-práctico en el que construimos la carcasa de madera de la máquina recreativa, aprendemos a conectar el joystick, pantalla, pulsadores y además nos introduce en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
+El tutorial está realizado con el material que aportamos en dicho taller, pero será similar si buscas los componentes por tu cuenta.
+
+Con este tutorial y su correspondiente kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/) sobre el cual se instala una distribución [Piplay](http://pimame.org/) que emula los juegos clásicos de la época inicial de los videojuegos.
+
 
 Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por lo tanto, resulta perfecta para convertirse en un centro de entretenimiento económico.
 
