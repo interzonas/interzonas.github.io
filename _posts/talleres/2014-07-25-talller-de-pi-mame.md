@@ -1,7 +1,7 @@
 ---
 layout: entrada
 category: post
-title: Como montar tu propia arcade con Raspberry pi y mame
+title: Como montar tu propia arcade con Raspberry Pi y MAME
 subtitulo: Hirikilabs / Donostia
 date: {}
 tipo: talleres
