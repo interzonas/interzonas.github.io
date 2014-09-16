@@ -18,7 +18,7 @@ En la década de los 80 los videojuegos se jugaban en **máquinas recreativas**.
 
 <!--mas-->
 
-Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y MAME. 
+Este es un tutorial para que te puedas construir un Arcade con una Raspberry Pi y MAME. 
 
 Además, este artículo es la documentación utilizada para el taller teórico-práctico realizado por [Interzonas](http://interzonas.info) en colaboración con [Hirikilabs](http://hirikilabs.tabakalera.eu/). Taller en el que construimos la carcasa de madera de la máquina recreativa, aprendemos a conectar el joystick, pantalla, pulsadores, y además nos introduce en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.  
 
