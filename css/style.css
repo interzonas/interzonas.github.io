@@ -6512,3 +6512,8 @@ a:hover {
   border-left: 2px solid #303231;
   padding-left: 10px;
 }
+.mon.affix {
+  position: fixed;
+  top: 0px;
+  width: 265px;
+}
