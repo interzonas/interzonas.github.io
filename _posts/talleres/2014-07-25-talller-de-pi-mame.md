@@ -56,7 +56,7 @@ Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar 
 <a name="montaje"></a>
 <h2 class="title-big-seccion">Montaje</h2>
 
-El montaje está muy determinado por la carcasa sobre todo en la botonera pero para dar un orientación serían cuatro fases diferentes.
+El montaje está muy determinado por la carcasa sobre todo en la botonera. Pero para dar un orientación serían cuatro fases diferentes.
 
 * **Carcasa**: Nosotros estamos usando el estupendo diseño realizado por [Arquimaña](http://www.arqma.es/) y es el que repartimos en los talleres.
 * **Fuente de alimentación**: Aquí es donde montamos el cableado que alimente la Raspberry y la pantalla.
