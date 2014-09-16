@@ -32,7 +32,11 @@ Una vez terminada la máquina, se le pueden cargar muchos juegos clásicos; por 
 <a name="componentes"></a>
 <h2 class="title-big-seccion">Componentes del MAME Raspberry</h2>
 
-Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar tu propia Arcade, esta es la lista de componentes.
+Desde Interzonas hemos preparado un kit con todo lo necesario para poder montar tu propia Arcade, esta es la lista de componentes:
+- item
+- item
+- item
+
 
 * Fuente de alimentación dual 12v + 5v
 * Cable Mini usb
