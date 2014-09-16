@@ -44,7 +44,7 @@
 @gray_dark: #8f8f8f;
 @black_extra: #000;
 @green: #76b828;
-
+@orange: #F13D0A;
 
 // Tipografías
 @icon: 'Glyphicons Halflings';
@@ -672,4 +672,14 @@ position: fixed;
 top: 0px;
 width: 265px;
 }
+
+.btn-orange {
+	background-color: @orange;
+	border-color: fade(@orange, 90%);
+		&:hover{
+			border-color: fade(@orange, 90%);
+			background-color: fade(@orange, 80%);
+		}
+}
+
 

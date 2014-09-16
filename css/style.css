@@ -6517,3 +6517,11 @@ a:hover {
   top: 0px;
   width: 265px;
 }
+.btn-orange {
+  background-color: #f13d0a;
+  border-color: rgba(241, 61, 10, 0.9);
+}
+.btn-orange:hover {
+  border-color: rgba(241, 61, 10, 0.9);
+  background-color: rgba(241, 61, 10, 0.8);
+}
