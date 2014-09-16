@@ -12,13 +12,13 @@ menu: '<div class="col-sm-3 columna-rigth"> <h3>Menú</h3><ul class="menu-latera
 embebido: '<h2 class="title-big-seccion">Historia en Twitter</h2><div class="storify"><iframe src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid" width="100%" height=750 frameborder=no allowtransparency=true></iframe><script src="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid"></script><noscript>[<a href="//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas" target="_blank">View the story "Taller Raspberry Mame 2014  -Interzonas-" on Storify</a>]</noscript></div>'
 ---
 
-En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las características de estas antiguas máquinas.
+En la década de los 80 los videojuegos se jugaban en **máquinas recreativas**. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las características de estas antiguas máquinas.
 
 <!--mas-->
 
-Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los componentes por tu cuenta.
+Este es el tutorial para que te puedas construir un Arcade con una Raspberry Pi y mame. Pero también es un kit que forma parte del taller que hacemos en [Interzonas](http://interzonas.info) en colaboración con [Hirikilabs](http://hirikilabs.tabakalera.eu/). Parte del tutorial tiene que ver con el material que aportamos en el taller, pero la idea será similar si buscas los componentes por tu cuenta.
 
-Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/), sobre el que se instala un distribución [piplay](http://pimame.org/) que emula los juegos clásicos de la época inicial de los videojuegos.
+Con este tutorial y el kit construiremos la recreativas DIY utilizando un pequeño ordenador basado en hardware libre [Raspberry Pi](http://www.raspberrypi.org/), sobre el que se instala un distribución [Piplay](http://pimame.org/) que emula los juegos clásicos de la época inicial de los videojuegos.
 
 Esta es la documentación  para el taller teórico-práctico en el que construiremos la carcasa de madera de la máquina recreativa, aprenderemos a conectar el joystick, pantalla, pulsadores y además comenzaremos a introducirnos en el mundo de [Raspberry Pi](http://www.raspberrypi.org/)instalando y configurando el emulador MAME y cargando juegos.
 
