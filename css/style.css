@@ -6525,3 +6525,13 @@ a:hover {
   border-color: rgba(241, 61, 10, 0.9);
   background-color: rgba(241, 61, 10, 0.8);
 }
+.texto-logo {
+  color: #d6d6d6;
+  padding-top: 20px;
+}
+.img-responsive-logo {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
