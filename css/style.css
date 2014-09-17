@@ -6476,10 +6476,10 @@ a:hover {
 }
 .home-post-item .title-big {
   transition: all 170ms ease-in;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .home-post-item .title-big:hover {
-  opacity: 0.999;
+  opacity: 0.8;
 }
 .home-post-item p {
   opacity: 0.7;
