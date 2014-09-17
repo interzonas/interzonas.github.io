@@ -13,7 +13,8 @@ columna: 0
 menu: "<div class=\"col-sm-3 columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#codigo\">Código</a></li><li><a href=\"#fotos\">Presentación y fotos</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
 ---
 
-LOREM LOREM En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las características de estas antiguas máquinas.
+Desde Interzonas preparamos este taller para una introducción de Arduino que realizamos en Hirikilabs y esta es la relación de ejercicios.
+
 <!--mas-->
 
 Para el taller usamos una tira de leds direccionables rgb con el chip ws2811 este es el producto:
