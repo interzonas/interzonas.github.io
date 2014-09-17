@@ -10,7 +10,7 @@ image: leds2.jpg
 published: true
 big: 1
 columna: 0
-menu: "<div class=\"col-sm-3 columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"300\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#codigo\">Código</a></li><li><a href=\"#fotos\">Presentación y fotos</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
+menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"300\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#codigo\">Código</a></li><li><a href=\"#fotos\">Presentación y fotos</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
 ---
 
 Desde Interzonas preparamos este taller para una introducción de Arduino que realizamos en Hirikilabs y esta es la relación de ejercicios.
@@ -57,7 +57,6 @@ Aquí una serie de fotos que hicimos en el taller de [hirikilabs](http://hirikil
 
 Tenemos esta pequeña presentación que utilizamos a modo de introducción del taller
 <iframe src="//slides.com/interzonas/taller-arduino-tiras-de-led-rgb-direccionables/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 
 
 <!--fin-->
