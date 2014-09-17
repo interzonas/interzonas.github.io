@@ -6040,7 +6040,7 @@ body {
   padding: 65px 15px ;
 }
 .inner {
-  padding: 75px 15px ;
+  padding: 40px 15px ;
 }
 .uppercase {
   text-transform: uppercase;
@@ -6064,6 +6064,7 @@ h6,
 }
 strong {
   color: #09a2d3;
+  font-weight: 700;
 }
 .m0 {
   margin: 0;
@@ -6242,7 +6243,6 @@ strong {
   color: #09a2d3;
   margin-top: 60px;
   font-size: 35px;
-  font-weight: bold;
 }
 .texto-title {
   font-family: "Cabin Sketch", cursive;
@@ -6259,6 +6259,9 @@ strong {
 .title-post-seccion {
   color: #666;
   margin: 20px 0px 10px 0px;
+}
+.title-post-principal {
+  padding-bottom: 20px;
 }
 .footer-labs {
   background-image: url("../images/lab-footer-black.png");
@@ -6392,11 +6395,15 @@ ul.menu-lateral {
 }
 .menu-lateral > li {
   color: #09a2d3;
-  font-weight: bold;
+  font-weight: 700;
   padding-left: 10px;
 }
 .menu-lateral a {
   text-decoration: none;
+  color: #09a2d3;
+}
+.menu-lateral a:hover {
+  color: rgba(9, 162, 211, 0.9);
 }
 .talleres {
   background-color: #c9c9c9;
@@ -6528,6 +6535,20 @@ a:hover {
 .texto-logo {
   color: #d6d6d6;
   padding-top: 20px;
+  font-size: 15px;
+  margin: 0 40px;
+}
+.texto-logo a:hover {
+  text-decoration: none;
+  color: rgba(9, 162, 211, 0.9);
+}
+.texto-logo-dos {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #09a2d3;
+  padding: 13px 0px;
+  margin: 30px 23px;
 }
 .img-responsive-logo {
   max-width: 100%;
