@@ -5,31 +5,56 @@ date:   2014-05-20 11:21:04
 tipo: "talleres"
 categories: "talleres"
 image: "leds2.jpg"
-published: false
+published: true
 big: 1
 columna: 0
-menu: '<div class="col-sm-3 columna-rigth"><ul class="menu-lateral"><li>Descripción</li><li>Componentes</li><li>Github</li><li>Descargas</li></ul></div>'
+menu: "<div class=\"col-sm-3 columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#codigo\">Código</a></li><li><a href=\"#fotos\">Presentación y fotos</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
 ---
 
-Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el
+Desde [Interzonas.info](http://interzonas.info) preparamos este taller para una introducción de Arduino que realizamos en [Hirikilabs](http://hirikilabs.tabakalera.eu/) y esta es la relación de ejercicios
 <!--mas-->
 
+Para el taller usamos una tira de leds direccionables rgb con el chip ws2811 este es el producto:
+[https://www.sparkfun.com/products/12028](https://www.sparkfun.com/products/12028)
+
+Información técnica de como funciona la tira de led rgb [https://learn.sparkfun.com/tutorials/ws2812-breakout-hookup-guide/addressable-led-strips](https://learn.sparkfun.com/tutorials/ws2812-breakout-hookup-guide/addressable-led-strips)
+
+Aunque la idea final del taller es controlar este tipo de leds, el taller se convierte en una herramienta ideal para entender los conceptos básicos de la programación. Que es una variable, que es un array, que es un loop, es mucho mas fácil de comprender viéndolo y eso lo hace a la perfección la tira de led.
+
+
+<a name="componentes"></a>
 <h3 class="title-post-seccion">Componentes</h3>
 
-Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo.
-* 1 tira de leds
-* 1 raspberry pi
-* 3 placas protoboard
-* 1 cable rca
-* Cables a tutiplen
+* Placa protoboard
+* Jumppers (varios)
+* Interruptor
+* resistencia de 470 omhios
+* Potenciómetro 1k omhios
+* Tira de 16 leds rgb
 
+*Nota la tira de led el puerto de datos lo conectamos en todos lo ejercicios al pin 4*
+
+Presentación de la charla: http://slides.com/interzonas/taller-arduino-tiras-de-led-rgb-direccionables
+
+<a name="codigo"></a>
 <h3 class="title-post-seccion">Código</h3>
+Para poder realizar el taller hemos programado una serie de código de ejemplo ordenados por dificultad, el código esta accesible desde un repositorio este [repositorio en github](https://github.com/karlosgliberal/Taller_arduino_tira_led) o puedes descargarlo desde [aquí](https://github.com/karlosgliberal/Taller_arduino_tira_led/archive/master.zip)
 
-Más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el
 
-<h3 class="title-post-seccion">Descargas</h3>
-<a class="github" href="/" target="_blank">Ejercicios</a>
-<a class="github" href="/" target="_blank">Código</a>
+<a name="componentes"></a>
+<h3 class="title-post-seccion">Fotos y presentación</h3>
+
+Aquí una serie de fotos que hicimos en el taller de [hirikilabs](http://hirikilabs.tabakalera.eu)
+<!-- Place this tag in your head or just before your close body tag. -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-post" data-href="https://plus.google.com/105484933848505786542/posts/DpgrZACmg83"></div>
+
+
+Tenemos esta pequeña presentación que utilizamos a modo de introducción del taller
+<iframe src="//slides.com/interzonas/taller-arduino-tiras-de-led-rgb-direccionables/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 
 
