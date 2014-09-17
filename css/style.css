@@ -6224,7 +6224,7 @@ strong {
 }
 .wrapper-item-small,
 .wrapper-item-big {
-  margin-top: 20px;
+  margin: 60px 0px;
   position: relative;
 }
 .wrapper-item-big img,
@@ -6369,7 +6369,7 @@ strong {
 }
 .post-img-full {
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 70% 70%;
   min-height: 200px;
 }
 .post ul {
