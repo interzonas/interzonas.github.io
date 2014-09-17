@@ -3,13 +3,13 @@ layout: entrada
 category: post
 title: Como montar tu propia arcade con Raspberry Pi y MAME
 subtitulo: Hirikilabs / Donostia
-date: {}
+date: 2014-07-25 11:21:04
 tipo: talleres
 categories: talleres
 image: pimame.jpg
 big: 1
 columna: 0
-menu: "<div class=\"col-sm-3 columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#montaje\">Montaje</a></li><li><a href=\"#raspberry\">Raspberry pi</a></li><li><a href=\"#mame\">Mame</a></li><li><a href=\"#piplay\">Pi play</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
+menu: "<div class=\"col-sm-3 columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#montaje\">Montaje</a></li><li><a href=\"#raspberry\">Raspberry pi</a></li><li><a href=\"#mame\">Mame</a></li><li><a href=\"#piplay\">Pi play</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
 embebido: "<h2 class=\"title-big-seccion\">Historia en Twitter</h2><div class=\"storify\"><iframe src=\"//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas/embed?header=false&border=false&template=grid\" width=\"100%\" height=750 frameborder=no allowtransparency=true></iframe><script src=\"//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas.js?header=false&border=false&template=grid\"></script><noscript>[<a href=\"//storify.com/interzonasinfo/taller-raspberry-mame-2014-interzonas\" target=\"_blank\">View the story \"Taller Raspberry Mame 2014  -Interzonas-\" on Storify</a>]</noscript></div>"
 published: true
 ---
@@ -18,9 +18,9 @@ En la década de los 80 los videojuegos se jugaban en **máquinas recreativas**.
 
 <!--mas-->
 
-Este es un tutorial para que te puedas construir un Arcade con una Raspberry Pi y MAME. 
+Este es un tutorial para que te puedas construir un Arcade con una Raspberry Pi y MAME.
 
-Además, este artículo es la documentación utilizada para el taller teórico-práctico realizado por [Interzonas](http://interzonas.info) en colaboración con [Hirikilabs](http://hirikilabs.tabakalera.eu/). Taller en el que construimos la carcasa de madera de la máquina recreativa, aprendimos a conectar el joystick, pantalla y pulsadores, y además nos introdujo en el mundo de [Raspberry Pi](http://www.raspberrypi.org/) instalando y configurando el emulador MAME y cargando juegos.  
+Además, este artículo es la documentación utilizada para el taller teórico-práctico realizado por [Interzonas](http://interzonas.info) en colaboración con [Hirikilabs](http://hirikilabs.tabakalera.eu/). Taller en el que construimos la carcasa de madera de la máquina recreativa, aprendimos a conectar el joystick, pantalla y pulsadores, y además nos introdujo en el mundo de [Raspberry Pi](http://www.raspberrypi.org/) instalando y configurando el emulador MAME y cargando juegos.
 
 Todas las explicaciones y pasos están realizados con el material que aportamos en dicho taller, pero será similar si buscas los componentes por tu cuenta.
 
