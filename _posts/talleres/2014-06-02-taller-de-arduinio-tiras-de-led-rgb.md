@@ -1,17 +1,19 @@
 ---
 layout: entrada
-title:  "Taller Tiras de Leds direccionables con Arduino"
-date:   2014-05-20 11:21:04
-tipo: "talleres"
-categories: "talleres"
-image: "leds2.jpg"
+category: post
+title: Taller Tiras de Leds direccionables con Arduino
+subtitulo: Hirikilabs / Donostia
+date: 2014-07-25 11:21:04
+tipo: talleres
+categories: talleres
+image: leds2.jpg
 published: true
 big: 1
 columna: 0
 menu: "<div class=\"col-sm-3 columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#codigo\">Código</a></li><li><a href=\"#fotos\">Presentación y fotos</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
 ---
 
-Desde [Interzonas.info](http://interzonas.info) preparamos este taller para una introducción de Arduino que realizamos en [Hirikilabs](http://hirikilabs.tabakalera.eu/) y esta es la relación de ejercicios
+LOREM LOREM En la década de los 80 los videojuegos se jugaban en máquinas recreativas. Hoy en día, casi todos los juegos de esa época se pueden disfrutar a través de emuladores o pequeños programas que reproducen las características de estas antiguas máquinas.
 <!--mas-->
 
 Para el taller usamos una tira de leds direccionables rgb con el chip ws2811 este es el producto:
@@ -21,9 +23,9 @@ Información técnica de como funciona la tira de led rgb [https://learn.sparkfu
 
 Aunque la idea final del taller es controlar este tipo de leds, el taller se convierte en una herramienta ideal para entender los conceptos básicos de la programación. Que es una variable, que es un array, que es un loop, es mucho mas fácil de comprender viéndolo y eso lo hace a la perfección la tira de led.
 
-
+<!--Componentes-->
 <a name="componentes"></a>
-<h3 class="title-post-seccion">Componentes</h3>
+<h2 class="title-big-seccion">Componentes</h2>
 
 * Placa protoboard
 * Jumppers (varios)
@@ -37,12 +39,12 @@ Aunque la idea final del taller es controlar este tipo de leds, el taller se con
 Presentación de la charla: http://slides.com/interzonas/taller-arduino-tiras-de-led-rgb-direccionables
 
 <a name="codigo"></a>
-<h3 class="title-post-seccion">Código</h3>
+<h2 class="title-big-seccion">Código</h2>
 Para poder realizar el taller hemos programado una serie de código de ejemplo ordenados por dificultad, el código esta accesible desde un repositorio este [repositorio en github](https://github.com/karlosgliberal/Taller_arduino_tira_led) o puedes descargarlo desde [aquí](https://github.com/karlosgliberal/Taller_arduino_tira_led/archive/master.zip)
 
 
 <a name="componentes"></a>
-<h3 class="title-post-seccion">Fotos y presentación</h3>
+<h2 class="title-big-seccion">Fotos y presentación</h2>
 
 Aquí una serie de fotos que hicimos en el taller de [hirikilabs](http://hirikilabs.tabakalera.eu)
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -57,4 +59,4 @@ Tenemos esta pequeña presentación que utilizamos a modo de introducción del t
 
 
 
-
+<!--fin-->
