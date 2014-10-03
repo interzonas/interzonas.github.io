@@ -4,16 +4,21 @@ category: post
 title: "Interzonas Labs. Experimentación, tecnología, herramientas, proyectos, talleres..."
 subtitulo: Interzonas / Iruña
 date: 2014-10-03 12:21:04
-tipo: blog
+tipo: talleres
 categories: blog
-image: leds2.jpg
+image: lab.jpg
 published: true
 big: 1
 columna: 0
-menu: ""
+menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 ---
 
-Hace unos días publicamos nuestro [Interzonas Labs](http://labs.interzonas.info). Un proyecto que se cocía desde hace tiempo y que alimentamos desde mucho antes, pero que sin embargo no sabíamos cómo ni dónde compartirlo. Porque nos gusta experimentar, incorporar nuevas técnicas, tecnologías, herramientas, software, materiales…
+Hace unos días publicamos nuestro [Interzonas Labs](http://labs.interzonas.info).
+
+<!--mas-->
+
+Un proyecto que se cocía desde hace tiempo y que alimentamos desde mucho antes, pero que sin embargo no sabíamos cómo ni dónde compartirlo. Porque nos gusta experimentar, incorporar nuevas técnicas, tecnologías, herramientas, software, materiales…
+
 ![Laboratorio de experimentos](/_posts/blog/lab.jpg)
 
 Y siempre hay referencias que reafirman lo que a veces comienzan como simple intuiciones, como es el caso de [IDEO Labs](https://labs.ideo.com/). Tal y como ellos dicen DEO Labs es un espacio para compartir sus historias de experimentación y creación de prototipos. Abarcan temas de diseño, cultura, ciencia y tecnología. Compartiendo opiniones, procesos, herramientas y recursos. Reflexionan sobre fracasos y celebran éxitos.
