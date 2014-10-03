@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: "Interzonas Labs. Experimentación, tecnología, herramientas, proyectos, talleres..."
 ---
 
@@ -15,4 +15,4 @@ Hemos discutido mucho entre Karlos, Aitor y Miren sobre el sentido de nuestro la
 
 Esta semana hemos estado analizando el último año y discutiendo cómo queremos que sea el próximo. Estamos buscando la manera de aunar nuestros anhelos, experiencias y capacidades para seguir adelante en un Interzonas más abierto, potente y capaz de ofrecer soluciones.
 
-Os iremos contando 
+Os iremos contando
