@@ -37,11 +37,11 @@ En nuestro caso, la idea del corte láser surgió de la necesidad de materiales 
 Os dejamos unas fotos de las pruebas que realizamos:
 
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/corta3.jpg" class="img-responsive" alt="Responsive image">
+  <img src="{{site.url}}/images/cortal3.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Primeras pruebas quebrados, corte y grabado</div>
 </div>
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/corta4.jpg" class="img-responsive" alt="Responsive image">
+  <img src="{{site.url}}/images/cortal4.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Primeras pruebas quebrados, corte y grabado</div>
 </div>
 <div class="img-wrapper">
