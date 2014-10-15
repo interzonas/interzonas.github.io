@@ -1,7 +1,7 @@
 ---
 layout: entrada
 category: post
-title: "Cortadora laser, precisión y creatividad"
+title: "Cortadora láser, precisión y creatividad"
 subtitulo: Interzonas / Iruña-Donosti
 date: 2014-10-14 22:21:04
 tipo: blog
