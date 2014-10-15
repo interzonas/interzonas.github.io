@@ -46,5 +46,5 @@ Os dejamos unas fotos de las pruebas que realizamos:
 </div>
 <div class="img-wrapper">
   <img src="{{site.url}}/images/corta5.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Corte de abecedario con distintos materiales, DM, fieltro, madera</div>
+  <div class="img-footer">Corte de abecedario con distintos materiales, DM, lija, fieltro, madera</div>
 </div>
