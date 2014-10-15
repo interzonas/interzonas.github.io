@@ -6373,7 +6373,7 @@ strong {
 .post-img-full {
   background-size: cover;
   background-position: 70% 70%;
-  min-height: 200px;
+  min-height: 300px;
 }
 .post ul {
   list-style-type: none;
