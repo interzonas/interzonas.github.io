@@ -1,7 +1,7 @@
 ---
 layout: entrada
 category: post
-title: "Grupo de investigación de códico creativo"
+title: "Grupo de investigación de código creativo"
 subtitulo: Interzonas / Hirikilabs - Iruña-Donosti
 date: 2014-10-22 12:21:04
 tipo: blog
