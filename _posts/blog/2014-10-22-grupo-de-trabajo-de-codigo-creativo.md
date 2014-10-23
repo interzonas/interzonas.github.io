@@ -1,7 +1,7 @@
 ---
 layout: entrada
 category: post
-title: "Grupo de investigación de código creativo"
+title: "Grupo de trabajo de código creativo"
 subtitulo: Interzonas / Hirikilabs - Iruña-Donosti
 date: 2014-10-22 12:21:04
 tipo: blog
@@ -16,9 +16,10 @@ menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 
 ¿Es posible usar el código como una forma de expresión artística?
 
+
 <!--mas-->
 
-Esta pregunta es una de tantas que estamos intentando responder en el grupo de investigación sobre Código Creativo, el cual, estamos teniendo la suerte de coordinarlo desde Interzonas (bueno sobre todo yo, [Karlos g Liberal](https://twitter.com/patxangas)).
+Esta pregunta es una de tantas que estamos intentando responder en el grupo de trabajo sobre Código Creativo, el cual, estamos teniendo la suerte de coordinarlo desde Interzonas (bueno sobre todo yo, [Karlos g Liberal](https://twitter.com/patxangas)).
 
 Este grupo, que forma parte de otros tres (Cultura libre, Aprendizajes Expandidos, Nuevos Artesanos) y que se realizan en [Hirikilabs](http://hirikilabs.tabakalera.eu/), intenta responder las formas de creación actuales. En este [post](http://blog.elfilo.net/articles/iniciamos-grupo-de-trabajo-sobre-c-digo-creativo-en-hirikilabs/) hice una primera introducción al grupo hace unos meses.
 
@@ -38,7 +39,7 @@ Un punto clave del grupo es que tenemos que reflejar que sólo mirándonos de fr
 
 Otro debate apasionante pero tenebroso es el relativo al código: ¿qué es código? ¿qué es programar? ¿qué es código creativo? ¿qué es arte? etc. Y buff... obviamente no tenemos respuestas. Lo que sí vemos claro, es que un conjunto no pequeño de personas necesitan del "código" para poder expresarse, para poder contar historias y esto es apasionante. Pero no sólo es apasionante por los resultados finales en "obras artísticas", sino también en la forma de escribir código. Aquí rescatamos la tendencia de algunos programadores de hablar de artesanos del software en detrimento de ingenieros. ¿Y qué pasaría si juntáramos a artistas, creadores, con artesanos del software? ¿Y si les hiciéramos resolver los mismos problemas? Esta es una línea de trabajo muy clara, y queremos ponerla en práctica.
 
-El grupo de investigación puede imaginar qué puentes son necesarios para unir caminos. Nos queda mucho trabajo. Pero se intuyen muchas posibilidades
+El grupo de trabajo puede imaginar qué puentes son necesarios para unir caminos. Nos queda mucho trabajo. Pero se intuyen muchas posibilidades
 
 
 *O hacemos código o somos código lo mismo da. La programación tiene que ser expandida tiene que atravesarnos*
