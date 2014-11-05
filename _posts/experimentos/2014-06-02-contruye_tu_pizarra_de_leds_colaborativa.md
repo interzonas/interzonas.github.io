@@ -19,20 +19,20 @@ En este tutorial te mostraremos como hemos montado en Interzonas una pizarra de 
 
 <!--mas-->
 
-En [interzonas](http://labs.interzonas.info/) cuando empezamos a okupar un pedazo de oficina de [biko](http://www.biko2.com/) se nos planteo un reto, de hecho un gran reto. Biko es una emprea que abraza la metodologia de desarrollo agil y su sistema organizativo se basa en equipos autogestionados. Estos equipos tiene su propio nombre he icono que cuelgan del techo.
+En [interzonas](http://labs.interzonas.info/) cuando empezamos a okupar un pedazo de oficina de [biko](http://www.biko2.com/) se nos planteo un reto, de hecho un gran reto. Biko es una empresa que abraza la metodología de desarrollo agil y su sistema organizativo se basa en equipos autogestionados. Estos equipos tiene su propio nombre he icono que cuelgan del techo.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/carteles_biko.png" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Carteles equipo biko</div>
+  <div class="img-footer">Carteles equipo Biko</div>
 </div>
 
-¿Que podíamos hacer para que el cartel de interzonas fuera especial?
-Después de darle unas vueltas lo vimos claro. Una pantalla de led que pudieramos pintar a nuestro antojo, claro todo controlado por una web, en tiempo real y colaborativo.
+¿Que podíamos hacer para que el cartel de Interzonas fuera especial?
+Después de darle unas vueltas lo vimos claro. Una pantalla de leds que pudiéramos pintar a nuestro antojo, claro todo controlado por una web, en tiempo real y colaborativo.
 El resultado final:
 
 <iframe width="660" height="500" src="//www.youtube.com/embed/ZvB0OpAjqis" frameborder="0" allowfullscreen></iframe>
 
-Como se puede ver en el vídeo, hemos conectado un arduino a una pantalla de leds y una reapberry a este arduino. La raspberry esta conectada a internet con un usb wifi, y es mediante las raspberry como nos comunicamos con el arduino que manda la información para encender y apagar los led.
+Como se puede ver en el vídeo, hemos conectado un arduino a una pantalla de leds y una respberry a este arduino. La raspberry esta conectada a internet con un usb wifi, y es mediante las raspberry como nos comunicamos con el arduino que manda la información para encender y apagar los led.
 
 La idea desde el principio era usar raspberry para poder instalar nodejs y que hiciera de demonio (Oreja que dice [Aitor](http://twitter.com/aitor_rl)) Después de unas pruebas vimos interesante usar el proyecto [Firebase](http://firebase.com) para la persistencia de datos y el tiempo real, ya que nos evitaba tener  mantener una base de datos propia.
 
@@ -51,7 +51,7 @@ Estas son las piezas que hemos usado para montar la pizarra.
 * Arduino
 * Tornillo largos y tuercas
 * placa de metacrilato
-* Pantalla led 16x32 Adafruit (Se puede hacer con otros sistemas)
+* Pantalla leds 16x32 [Adafruit](http://adafruit.com) (Se puede hacer con otros sistemas)
 
 
 <div class="img-wrapper">
@@ -80,7 +80,7 @@ El montaje y los componentes son parte del experimento que realizamos, el mismo 
 Estas diferentes partes del desarrollo
 
 * **Caja**: Queríamos poder contener todos los elementos en la propia pantalla.
-* **Fuente de alimentación**: La fuente tiene que alimentar a la raspberry, al arduinio y a la pantalla.
+* **Fuente de alimentación**: La fuente tiene que alimentar a la raspberry, al arduino y a la pantalla.
 * **Cableado botonera**: Montaje y cableado de la botonera.
 * **Conexiones**: Las conexiones entre arduino y la pantalla.
 
@@ -120,11 +120,11 @@ Para la fuente de alimentación se necesita que de una tensión de 5V y mínimo 
   <div class="img-footer">[@aitor_rl](http://twitter.com/aitor_rl) soldando el conector de la pantalla y el conector microusb a la fuente de alimentación</div>
 </div>
 
-Para la conexión de arduino lo simplificamos mucho conectamos el usb de Arduino al usb de la raspberry pi, de esta manera alimentamos el Arduinio y a su vez trasmitimos los datos de internet a la pantalla
+Para la conexión de arduino lo simplificamos mucho conectamos el usb de arduino al usb de la raspberry pi, de esta manera alimentamos el arduino y a su vez trasmitimos los datos de internet a la pantalla
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/usbarduino.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Conexión del usb Arduino al usb raspberry</div>
+  <div class="img-footer">Conexión del usb arduino al usb raspberry</div>
 </div>
 
 
@@ -132,7 +132,7 @@ Para la conexión de arduino lo simplificamos mucho conectamos el usb de Arduino
 <h2 class="title-big-seccion">Raspberry pi</h2>
 
 
-Intentamos con las rapberry poder pintar en la pantalla pero vimos que el controlador de la misma funcionaba mucho mejor en arduino, pero teníamos claro que para la conectividad era obligado usar raspberry, con arduino se puede, pero los shield de conexión son caros y tediosos. Así que hicimos una instalación básica con la distribución [Raspian](http://www.raspberrypi.org/downloads/) y una configuración también básica
+Intentamos con las raspberry poder pintar en la pantalla pero vimos que el controlador de la misma funcionaba mucho mejor en arduino, pero teníamos claro que para la conectividad era obligado usar raspberry, con arduino se puede, pero los shield de conexión son caros y tediosos. Así que hicimos una instalación básica con la distribución [Raspian](http://www.raspberrypi.org/downloads/) y una configuración también básica
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/conexiones_raspberry.jpg" class="img-responsive" alt="Responsive image">
@@ -141,7 +141,7 @@ Intentamos con las rapberry poder pintar en la pantalla pero vimos que el contro
 
 Para la conectar la raspberry usamos un usb wifi [aquí](http://geekytheory.com/tutorial-raspberry-pi-configurar-wif/) un buen tutorial de como hacerlo.
 
-Y configurar con upstart el arranque automatico del demonio de nodejs, aqui el fichero serialmatrix.conf que va a /etc/init
+Y configuramos un demonio (es la forma de llamar a un programa que esta a la escucha) con el sistema de arranque de ubuntu [upstart](http://upstart.ubuntu.com/) para la webapp en nodejs que se comunique con el puerto serie. Aquí el fichero serialmatrix.conf que va a /etc/init
 
 <script src="https://gist.github.com/karlosgliberal/cd0d96b144298e097970.js"></script>
 
@@ -149,35 +149,41 @@ Y configurar con upstart el arranque automatico del demonio de nodejs, aqui el f
 <a name="nodejs"></a>
 <h2 class="title-big-seccion">Nodejs</h2>
 
-Una vez instalada la distribución en la tarjeta SD, tenemos que instalar nodejs, se puede compilar, pero es largo y muy largo, mas que el paseo de frodo hasta mordor. En [este tutorial](http://revryl.com/2014/01/04/nodejs-raspberry-pi/) explican como hacerlo con apt, no es un nodejs con todos los sacramentos, pero se pueden hacer muchas cosa.
+Una vez instalada la distribución en la tarjeta SD, tenemos que instalar nodejs, se puede compilar, pero es más largo que el paseo de frodo a mordor. En [este tutorial](http://revryl.com/2014/01/04/nodejs-raspberry-pi/) explican como hacerlo con apt, no es un nodejs con todos los sacramentos, pero se pueden hacer muchas cosa.
 
 Nosotros necesitamos dos cosas de nodejs:
 
 * Hablar con el puerto serie
-* hablar con firebase
+* Hablar con [Firebase](http://firebase.com)
 
 Para la parte del puerto serie hacemos uso del modulo serialport y que lo instalamos con `npm install serialport`
 
-Este modulo nos permite comunicarnos con el puerto serie ya sea reciviendo información del mismo o enviandola aquí la definición básica
+Este modulo nos permite comunicarnos con el puerto serie ya sea recibiendo información del mismo o enviandola aquí la definición básica
+
 
 <script src="https://gist.github.com/karlosgliberal/ea642bd38716dbb0d470.js"></script>
 
-Luego explicaremos con mas detalle que es firebase, ya que nosotros solo usamos el envio de lo que recibimos del servicio firebase al arduino (mediante el puerto serie). Pero en el código siguiente tenemos la forma en la que enviamos los datos recividos de firebase a arduino por el puerto serie
+Luego explicaremos con mas detalle que es firebase, ya que nosotros solo usamos el envío de lo que recibimos del servicio firebase al arduino (mediante el puerto serie). Pero en el código siguiente tenemos la forma en la que enviamos los datos recibidos de firebase a arduino por el puerto serie
 
 <script src="https://gist.github.com/karlosgliberal/9ef27f01c30cebbd6274.js"></script>
 
-Este codigo es parte central del sistema `pixelDataRef`es nuestra referencia de firebase y con sus sistemas de evento `pixelDataRef.on` (child-added, child-changed, child-removed) somos notificado cuando alguien a añadido, borrado o cambiado algun regiestro de firebase.
+Este codigo es parte central del sistema `pixelDataRef`es nuestra referencia de firebase y con sus sistemas de evento `pixelDataRef.on` (child-added, child-changed, child-removed) somos notificado cuando alguien a añadido, borrado o cambiado algún registro de firebase.
 Desde nodejs estamos atentos de esos cambios y vamos a pasar por la misma función `var drawPixel` lo que recibimos de firebase  y con `myPort.write` mandaremos los datos por el puerto serie a arduino.
 
 
-<a name="Arduino-pantalla"></a>
-<h2 class="title-big-seccion">Arduinio/pantalla</h2>
+*Si aun no sabes que es nodejs aquí una  presentación que hicimos hace tiempo*
 
-Como hemos comentado hacemos uso de arduino, para poder controlar la pantalla. La información técnicas de la pantalla esta en este [enlace](http://www.adafruit.com/products/420) de adafruit (Que sería de nuestras vidas sin este ada)
+<iframe src="//slides.com/interzonas/la-anarquia-hecha-negocio/embed" width="660" height="500" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+<a name="Arduino-pantalla"></a>
+<h2 class="title-big-seccion">Arduino/pantalla</h2>
+
+Como hemos comentado hacemos uso de arduino, para poder controlar la pantalla. La información técnicas de la pantalla esta en este [enlace](http://www.adafruit.com/products/420) de Adafruit (Que sería de nuestras vidas sin este ada)
 
 <div class="img-wrapper">
   <img src="https://learn.adafruit.com/system/assets/assets/000/002/948/medium800/led_matrix_digitalwiring_(1).jpg?1396789286" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Imagen detalle conectores de adafruit</div>
+  <div class="img-footer">Imagen detalle conectores de Adafruit</div>
 </div>
 
 En este otro [enlace](https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/wiring-the-16x32-matrix) explican como hacer las conexiones entre arduino y el conector de la pantalla y el código de abajo se ve la relación de conectores (como lo indican en el post)
@@ -186,14 +192,14 @@ Una vez conectado el arduino a la pantalla usamos la función: `matrix.drawPixel
 
 <script src="https://gist.github.com/karlosgliberal/3ac4e23606409c7f6b0a.js"></script>
 
-El parseo de lo recibido desde node en arduinio es muy pobre en próximas versiones lo mejoraremos, pero ahora hace su función
+El parseo de lo recibido desde nodejs en arduino es muy pobre en próximas versiones lo mejoraremos, pero ahora hace su función
 
 <a name="firebase"></a>
 <h2 class="title-big-seccion">Firebase</h2>
 
 [Firebase](http://firebase.com) Como dicen ellos es una poderosa api de almacenamiento y sincronización en tiempo real. Es la caña, toda una navaja suiza, un proyecto que recientemente lo a [adquirido google](https://www.firebase.com/blog/2014-10-21-firebase-joins-google.html) y que demuestra que esta para quedarse.
 
-En definitiva lo que hace firebase es simple pero brutal, permite la persistencia de datos tipo  clave/valor, pero aporta un sistema de syncronización y notificación en tiempo real, osea que cuando alguien guarda algo el resto de clientes que estan conectadaso a esta *tabla* (ya sea desde un móvil o web) son notificados de ese cambio.
+En definitiva lo que hace firebase es simple pero brutal, permite la persistencia de datos tipo  clave/valor, pero aporta un sistema de sincronización y notificación en tiempo real, osea que cuando alguien guarda algo el resto de clientes que están conectados a esta *tabla* (ya sea desde un móvil o web) son notificados de ese cambio.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/pintarweb.jpg" class="img-responsive" alt="Responsive image">
@@ -203,19 +209,19 @@ En definitiva lo que hace firebase es simple pero brutal, permite la persistenci
 <a name="codigo"></a>
 <h2 class="title-big-seccion">Código</h2>
 
-Parte del código ya lo hemos ido comentando, pero tenemos que hacer una mención especia al desarrollo realizado en angularjs que lo usamos para poder pintar y que sigue el esquema de funcionamiento es similar al comentado ya varias ocasiones, lo único que le hemos añadido una serie funcionalides de para que emule una pizarra en la que pintar.
+Parte del código ya lo hemos ido comentando, pero tenemos que hacer una mención especia al desarrollo realizado en angularjs que lo usamos para poder pintar y que sigue el esquema de funcionamiento es similar al comentado ya varias ocasiones, lo único que le hemos añadido una serie funcionalidades para que emule una pizarra en la que pintar.
 
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/pintar_interzonas_info.png" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Ejemplo de dibujo en la app pizarra </div>
+  <div class="img-footer">Ejemplo de dibujo en la webapp pizarra </div>
 </div>
 
-La app también permite guarda y recuperar dibujo creados previamente como vemos en esta imagen
+La webapp también permite guarda y recuperar dibujo creados previamente como vemos en esta imagen
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/pintar_interzonas_detalle.png" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Ejemplo de gestión de dibujos con la app</div>
+  <div class="img-footer">Ejemplo de gestión de dibujos con la webapp</div>
 </div>
 
 Todo el código del proyecto es accesible desde este [repositorio](https://github.com/karlosgliberal/matrixdrawing)
@@ -226,8 +232,11 @@ En el repositorio esta el código de:
 * Demonio nodejs
 * Angularjs
 
-Esto es un experimento y como tal lo tratamos, puede que no te funcione, pero tienes la posiblidad de comentarlo tanto aquí como en el repositorio o usar nuestro [formulario de contacto de interzonas](http://interzonas.info/#contactar)
+Esto es un experimento y como tal lo tratamos en [interzonas](), faltan muchas piezas por mejorar pero tienes la posibilidad de comentarnos lo que encuentres raro tanto aquí como en el repositorio (haciendo pull-request) o usar nuestro [formulario de contacto de interzonas](http://interzonas.info/#contactar).
 
+Con el experimento queríamos poder trabajar con nuevos soportes y este desarrollo nos permite abrir esas posibilidades en esta ocasión con una pantalla de leds 16x32 pero en otras ocasiones, quien sabe ¿Con una fachada de leds?
+
+También te puedes poner en [contacto](http://interzonas.info/#contactar) con nosotros si quieres que organicemos un taller o se te ocurre alguna idea donde te podríamos ayudar, por muy loca que sea.
 
 
 
