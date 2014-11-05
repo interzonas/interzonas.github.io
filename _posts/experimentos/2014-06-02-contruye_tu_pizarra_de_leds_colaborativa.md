@@ -6,11 +6,11 @@ subtitulo: Hirikilabs / Donostia
 date: 2014-10-30 11:21:04
 tipo: experimentos
 categories: experimentos
-image: leds-x.png
+image: ledn2.jpg
 published: true
 big: 1
 columna: 0
-menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#montaje\">Montaje</a></li><li><a href=\"#raspberry\">Raspberry pi</a></li><li><a href=\"#arduino\">Arduino</a></li><li><a href=\"#nodejs\">Nodejs</a></li><li><a href=\"#firebase\">Firebase</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
+menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"> <div class=\"mon affix-top\" data-spy=\"affix\" data-offset-top=\"250\" data-offset-bottom=\"3000\"><div class=\"menu-lateral-wrapper\"><h3 class=\"title-menu-lateral\">Menú</h3><ul class=\"menu-lateral\"><li><a href=\"#componentes\">Componentes</a></li><li><a href=\"#montaje\">Montaje</a></li><li><a href=\"#raspberry\">Raspberry pi</a></li><li><a href=\"#arduino-pantalla\">Arduino/pantalla</a></li><li><a href=\"#nodejs\">Nodejs</a></li><li><a href=\"#firebase\">Firebase</a></li><li><a href=\"#codigo\">Código</a></li></ul></div><div class=\"wrapper-contacto\"><p>Si estas interesado en organizar un taller o tienes cualquier duda:</p><a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a></div></div></div>"
 
 
 ---
@@ -113,11 +113,11 @@ Como queremos poder colgar la pantalla desde el techo y no queríamos que subier
 
 <h3 class="title-post-seccion">Fuente de alimentación</h3>
 
-Para la fuente de alimentación se necesita que de una tensión de 5V y mínimo dos amperios, ya que para los colores vivos, sobre todo el blanco requiere de mucha potencia. El cableado es simple un conector microusb para la raspberry py e hicimos un empalme para con el conector de la pantalla.
+Para la fuente de alimentación se necesita que de una tensión de 5V y mínimo 2 amperios, ya que para los colores vivos, sobre todo el blanco requiere de mucha potencia. El cableado es simple un conector microusb para la raspberry py e hicimos un empalme para con el conector de la pantalla.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/soldadurafuente.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Soldando el conector de la pantalla y el conector microusb a la fuente de alimentación</div>
+  <div class="img-footer">[@aitor_rl](http://twitter.com/aitor_rl) soldando el conector de la pantalla y el conector microusb a la fuente de alimentación</div>
 </div>
 
 Para la conexión de arduino lo simplificamos mucho conectamos el usb de Arduino al usb de la raspberry pi, de esta manera alimentamos el Arduinio y a su vez trasmitimos los datos de internet a la pantalla
@@ -128,181 +128,107 @@ Para la conexión de arduino lo simplificamos mucho conectamos el usb de Arduino
 </div>
 
 
-<h3 class="title-post-seccion">Raspberry pi</h3>
+<a name="raspberry"></a>
+<h2 class="title-big-seccion">Raspberry pi</h2>
 
-Intentamos con las rapberry poder pintar en la pantalla pero vimos que el controlador de la misma funcionaba mucho mejor en arduinio. Pero teníamos claro que para la conectividad de la pantalla era obligado usar raspberry, con arduino se puede pero los shield de conexión, son caros y tediosos. Así que en esta configuración tenemos una instalación básica con la distribución [Raspian](http://www.raspberrypi.org/downloads/)
 
-Para la conectar la raspberry usamos un "pintxo" usb wifi [aquí](http://geekytheory.com/tutorial-raspberry-pi-configurar-wif/) un buen tutorial de como hacerlo. Con esto solo nos falta configurar el usb al arduinio
+Intentamos con las rapberry poder pintar en la pantalla pero vimos que el controlador de la misma funcionaba mucho mejor en arduino, pero teníamos claro que para la conectividad era obligado usar raspberry, con arduino se puede, pero los shield de conexión son caros y tediosos. Así que hicimos una instalación básica con la distribución [Raspian](http://www.raspberrypi.org/downloads/) y una configuración también básica
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/matrix/conexiones_raspberry.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Primeras pruebas entre la raspberry y la pantalla fail ;)</div>
+</div>
+
+Para la conectar la raspberry usamos un usb wifi [aquí](http://geekytheory.com/tutorial-raspberry-pi-configurar-wif/) un buen tutorial de como hacerlo.
 
 Y configurar con upstart el arranque automatico del demonio de nodejs, aqui el fichero serialmatrix.conf que va a /etc/init
 
 <script src="https://gist.github.com/karlosgliberal/cd0d96b144298e097970.js"></script>
 
 
-<h3 class="title-post-seccion">Nodejs</h3>
+<a name="nodejs"></a>
+<h2 class="title-big-seccion">Nodejs</h2>
 
-Una vez instalada la distribución en la tarjeta SD, tenemos que instalar nodejs, se puede compilar, pero es largo y tedioso, en e[este tutorial](http://revryl.com/2014/01/04/nodejs-raspberry-pi/) explican como hacerlo con apt.
+Una vez instalada la distribución en la tarjeta SD, tenemos que instalar nodejs, se puede compilar, pero es largo y muy largo, mas que el paseo de frodo hasta mordor. En [este tutorial](http://revryl.com/2014/01/04/nodejs-raspberry-pi/) explican como hacerlo con apt, no es un nodejs con todos los sacramentos, pero se pueden hacer muchas cosa.
 
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/matrix/conexiones_raspberry.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Primeras pruebas entre la raspberry y la pantalla</div>
-</div>
+Nosotros necesitamos dos cosas de nodejs:
 
-Es importante ser ordenado en esta fase sobre todo en el joystick done tendremos que tener identificados qué cable es cada cosa. En el taller utilizamos cinta aislante de colores para poner el nombre del cable (arriba, abajo, boton1, ESC, etc)
+* Hablar con el puerto serie
+* hablar con firebase
 
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/cableado0.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Replanteo de todas las soldaduras de los cables y preparación de las cintas identificativas </div>
-</div>
+Para la parte del puerto serie hacemos uso del modulo serialport y que lo instalamos con `npm install serialport`
 
-Una vez tenemos todo cableado y montado tenemos que probarlo antes de cerrar la carcasa. En la foto de abajo se puede ver como todos los cables están identificados y como también están las conexiones hechas entre los botones y el Gpio de Raspberry.
+Este modulo nos permite comunicarnos con el puerto serie ya sea reciviendo información del mismo o enviandola aquí la definición básica
 
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/cableado1.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Cableado y conexiones realizadas</div>
-</div>
+<script src="https://gist.github.com/karlosgliberal/ea642bd38716dbb0d470.js"></script>
 
-<h3 class="title-post-seccion">Conexión Gpio</h3>
+Luego explicaremos con mas detalle que es firebase, ya que nosotros solo usamos el envio de lo que recibimos del servicio firebase al arduino (mediante el puerto serie). Pero en el código siguiente tenemos la forma en la que enviamos los datos recividos de firebase a arduino por el puerto serie
 
-La Raspberry como producto educativo que es, pone a nuestra disposición un conjunto de pines que llamados GPIO. En la Wikipedia esto lo describen de esta manera:
+<script src="https://gist.github.com/karlosgliberal/9ef27f01c30cebbd6274.js"></script>
 
-GPIO (General Purpose Input/Output, Entrada/Salida de Propósito General) es un pin genérico en un chip, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
+Este codigo es parte central del sistema `pixelDataRef`es nuestra referencia de firebase y con sus sistemas de evento `pixelDataRef.on` (child-added, child-changed, child-removed) somos notificado cuando alguien a añadido, borrado o cambiado algun regiestro de firebase.
+Desde nodejs estamos atentos de esos cambios y vamos a pasar por la misma función `var drawPixel` lo que recibimos de firebase  y con `myPort.write` mandaremos los datos por el puerto serie a arduino.
 
-Nosotros hemos mapeado estos puertos para que una vez que se detecta el cierre del circuito mediante la pulsación de un botón (o el movimiento de la palanca del joystick) el ordenador interprete esta acción como si la pulsación de una tecla se tratará. Esto lo hacemos con un pequeño programa creado por Adafruit y que nosotros hemos modificado. En la imagen siguiente se puede ver nuestro mapeo.
+
+<a name="Arduino-pantalla"></a>
+<h2 class="title-big-seccion">Arduinio/pantalla</h2>
+
+Como hemos comentado hacemos uso de arduino, para poder controlar la pantalla. La información técnicas de la pantalla esta en este [enlace](http://www.adafruit.com/products/420) de adafruit (Que sería de nuestras vidas sin este ada)
 
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/gpio.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Esquema y mapeo del GPIO con el sistema de botones </div>
+  <img src="https://learn.adafruit.com/system/assets/assets/000/002/948/medium800/led_matrix_digitalwiring_(1).jpg?1396789286" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Imagen detalle conectores de adafruit</div>
 </div>
 
-En esta otra imagen se puede ver el sistema de conexiones que hemos diseñado para esta versión de la Arcade
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/gpio_image.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Soldaduras sobre pin hembra conectadas a la Raspberry pi</div>
-</div>
+En este otro [enlace](https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/wiring-the-16x32-matrix) explican como hacer las conexiones entre arduino y el conector de la pantalla y el código de abajo se ve la relación de conectores (como lo indican en el post)
 
-Estas conexiones se pueden hacer de muchas formas diferentes, hemos localizado unos [jumpers](http://www.adafruit.com/products/1952) hembra/macho que podrían simplificar mucho esta tarea
+Una vez conectado el arduino a la pantalla usamos la función: `matrix.drawPixel(x, y, matrix.Color333(r, g, b));`que nos permite pintar en la coordenada x, y con el color especificado.
 
-En la sección de las Raspberry explicaremos como hacemos funcionar este mapeo.
+<script src="https://gist.github.com/karlosgliberal/3ac4e23606409c7f6b0a.js"></script>
 
-<!--fin-->
+El parseo de lo recibido desde node en arduinio es muy pobre en próximas versiones lo mejoraremos, pero ahora hace su función
 
+<a name="firebase"></a>
+<h2 class="title-big-seccion">Firebase</h2>
 
-<!--Raspberry pi-->
-<a name="raspberry"></a>
-<h2 class="title-big-seccion">Raspberry pi</h2>
+[Firebase](http://firebase.com) Como dicen ellos es una poderosa api de almacenamiento y sincronización en tiempo real. Es la caña, toda una navaja suiza, un proyecto que recientemente lo a [adquirido google](https://www.firebase.com/blog/2014-10-21-firebase-joins-google.html) y que demuestra que esta para quedarse.
+
+En definitiva lo que hace firebase es simple pero brutal, permite la persistencia de datos tipo  clave/valor, pero aporta un sistema de syncronización y notificación en tiempo real, osea que cuando alguien guarda algo el resto de clientes que estan conectadaso a esta *tabla* (ya sea desde un móvil o web) son notificados de ese cambio.
 
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/pi.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Logo Raspberry pi</div>
+  <img src="{{site.url}}/images/matrix/pintarweb.jpg" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Herramienta para pintar en la pantalla y ver lo que otros pintan</div>
 </div>
 
-Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de bajo coste, desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas. (Wikipedia).
+<a name="codigo"></a>
+<h2 class="title-big-seccion">Código</h2>
 
-En nuestro arcade Raspberry pi es el cerebro, y hacemos uso de la tarjeta gráfica para poder conectarla con la pantalla de 7 pulgadas. Para el almacenamiento usamos una tarjeta SD, en el caso del kit es mínimo de 8GB ya que la distribución Piplay la tiene en esta dimensión. Nosotros para el kit hemos modificado la distribución Piplay para dejar configurada la biblioteca de Adafruit para nuestra disposición de teclas (relacionadas con los botones).
+Parte del código ya lo hemos ido comentando, pero tenemos que hacer una mención especia al desarrollo realizado en angularjs que lo usamos para poder pintar y que sigue el esquema de funcionamiento es similar al comentado ya varias ocasiones, lo único que le hemos añadido una serie funcionalides de para que emule una pizarra en la que pintar.
 
-La tarjeta SD hace dos funciones, por un lado se instala el sistema operativo (En nuestro caso una versión de Debian para Raspberry) y por otro lado el espacio libre lo usamos como sistema de almacenamiento para las roms.
-
-Tenemos esta imagen preparada que es la que usamos para el taller.
-[Descargar Piplay Interzonas](https://mega.co.nz/#!pQpzAR4K!nXhC1OT0LXtC_piNWXIwI-dxibT331H_q0qFhT8do9E)
-
-Para poder instalar esta imagen en vuestras tarjeta SD existen muchas maneras de hacerlo, dependerá en parte de tu sistema Operativo. Os dejo este [enlacee](http://computers.tutsplus.com/articles/how-to-flash-an-sd-card-for-raspberry-pi--mac-53600) con un buen tutorial sobre como hacerlo en distintos sistemas.
-
-Una vez instalada la distribución se tiene que hacer overclock desde el menú de configuración de Piplay. Estos son los valores a añadir:
-
-* arm_freq=900
-* core_freq=300
-* sdram_freq=500
-
-Si habéis instalado nuestra imagen preparada de Piplay la tendréis configurada para poder jugar con los 5 botones y el joystick. Podréis manejaros por los menús de configuración tanto de Piplay como del juego. En caso contrario tendrás que instalar la aplicación de Adafruit que convierte las pulsaciones de los botones en letras.
-
-En [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi) tienes otro estupendo tutorial para montarte un Arcade con Raspberry y aquí tienes el [código del programa](https://github.com/adafruit/Adafruit-Retrogame)
-
-[En nuestro repositorio](https://github.com/interzonas/Adafruit-Retrogame) tienes el código modificado para que funcione con 5 botones.
-
-En el proyecto [Adafruit-Retrogame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi) tienes la info de como instalar el programa.
-
-<!--fin-->
-
-
-<!--mame-->
-<a name="mame"></a>
-<h2 class="title-big-seccion">Mame</h2>
-
-Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar roms con los que jugar. En esto caso nos hemos centrado en MAME.
-
-Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas. Las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
-
-En nuestro caso para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para Raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
-
-Nuestro Arcade que se enfoca en el emulador MAME funciona sin teclado.
 
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/tresbotones.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Tres botones con pantalla y lateral sin montar</div>
+  <img src="{{site.url}}/images/matrix/pintar_interzonas_info.png" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Ejemplo de dibujo en la app pizarra </div>
 </div>
 
-Con los 5 botones y el joystick podemos movernos por la interfaz del Piplay y también jugar
-
-* Joystick
-* Botón 1
-* Botón 2
-* 1 player
-* Insert coin
-* Menú (Esc)
-
-Hemos modificado la configuración por defecto de Piplay en mame para que el botón 1 haga las veces de enter y así podamos navegar y entrar en los distintos menús.
+La app también permite guarda y recuperar dibujo creados previamente como vemos en esta imagen
 
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/configure-joystick.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Menú de acceso en la MAME a la configuración del teclado</div>
+  <img src="{{site.url}}/images/matrix/pintar_interzonas_detalle.png" class="img-responsive" alt="Responsive image">
+  <div class="img-footer">Ejemplo de gestión de dibujos con la app</div>
 </div>
 
-Para cambiar esta configuración necesitamos un teclado, dándole a tabulador podemos acceder a este menú de configuración de Mame nosotros hemos accedido al apartado de input para cambiar la asignación de boton1.
+Todo el código del proyecto es accesible desde este [repositorio](https://github.com/karlosgliberal/matrixdrawing)
 
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/menuinput.jpg" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Mapeo del teclado de la mame</div>
-</div>
+En el repositorio esta el código de:
 
-Aquí en el menú de asignaciones de teclas, nosotros hemos modificado el P1 Button 1 asignándole la tecla "enter"
+* Arduino
+* Demonio nodejs
+* Angularjs
 
-En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) tenemos un foro de discusión sobre roms de MAME que funcionan correctamente en la Raspberry pi
+Esto es un experimento y como tal lo tratamos, puede que no te funcione, pero tienes la posiblidad de comentarlo tanto aquí como en el repositorio o usar nuestro [formulario de contacto de interzonas](http://interzonas.info/#contactar)
 
-[http://coolrom.com/](coolrom.com) Es la web con un gran cantidad de juegos para nuestros emuladores
 
-<!--fin-->
 
-<!--Piplay-->
-<a name="piplay"></a>
-<h2 class="title-big-seccion">Piplay</h2>
-Como ya hemos ido comentado Piplay (antes Pimame) es la distribución especialmente montada para poder usar emuladores en la Raspberry pi. Es un proyecto vivo y con mucho movimiento.
-
-La propia distribución tiene muchos emuladores y opciones. Este tutorial no abarca su configuración pero vemos interesante explicar cómo subir roms
-
-<h3 class="title-post-seccion">Cargar roms en el kit</h3>
-
-Una vez que tengamos nuestro kit montado y queremos añadir más roms la distribución Piplay nos lo pone muy fácil, solo tendremos que conectar la Raspberry a una red local y mediante un equipo remoto se pueden subir Roms.
-
-Si nuestra Raspberry esta conectada a una red, podemos cargar roms de una manera muy sencilla. Desde otro equipo, abrimos un navegador y tecleamos la dirección ip de la Raspberry ( se muestra en la parte derecha del Piplay).
-
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/uno_rom.png" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Acceso servidor web para la subida de roms</div>
-</div>
-
-Pulsamos en Roms Uploader
-
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/dos.png" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Localización de los directorios dependiendo de emulador</div>
-</div>
-
-Veremos un listado de directorios por emuladores, en nuestro caso nos interesa añadir mas roms a la carpeta advmame. Seleccionamos el directorio.
-
-<div class="img-wrapper">
-  <img src="{{site.url}}/images/tres.png" class="img-responsive" alt="Responsive image">
-  <div class="img-footer">Directorio para subir la rom</div>
-</div>
 
 <!--fin-->
