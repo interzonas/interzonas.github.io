@@ -21,7 +21,7 @@ En este tutorial te mostraremos cómo hemos montado en Interzonas una pizarra de
 <a name="idea"></a>
 <h2 class="title-big-seccion">La idea</h2>
 
-Cuando en [Interzonas](http://labs.interzonas.info/) empezamos a okupar un pedazo de oficina de [Biko](http://www.biko2.com/) se nos planteó un reto, de hecho un gran reto. Biko es una empresa que abraza la metodología desde el desarrollo ágil y su sistema organizativo se basa en equipos autogestionados. Y cada equipo tiene su propio nombre y logotipo que cuelga del techo.
+Cuando en [Interzonas](http://interzonas.info/) empezamos a okupar un pedazo de oficina de [Biko](http://www.biko2.com/) se nos planteó un reto, de hecho un gran reto. Biko es una empresa que abraza la metodología desde el desarrollo ágil y su sistema organizativo se basa en equipos autogestionados. Y cada equipo tiene su propio nombre y logotipo que cuelga del techo.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/matrix/carteles_biko.png" class="img-responsive" alt="Responsive image">
