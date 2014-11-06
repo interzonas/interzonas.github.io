@@ -2,7 +2,7 @@
 layout: entrada
 category: post
 title: Construye tu pizarra de leds colaborativa
-subtitulo: Iruña / Donostia
+subtitulo: Interzonas / Iruña
 date: 2014-11-06 10:46:04
 tipo: experimentos
 categories: experimentos
