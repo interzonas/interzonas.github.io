@@ -2,8 +2,8 @@
 layout: entrada
 category: post
 title: Construye tu pizarra de leds colaborativa
-subtitulo: Hirikilabs / Donostia
-date: 2014-10-30 11:21:04
+subtitulo: Iruña / Donostia
+date: 2014-11-06 10:46:04
 tipo: experimentos
 categories: experimentos
 image: ledn2.jpg
