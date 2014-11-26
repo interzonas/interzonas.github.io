@@ -14,7 +14,7 @@ menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 ---
 
 
-Poniéndole magia a los proyectos web. Recopilación de ejemplos de Javascript
+Todos deseamos que nuestra web o aplicación tenga ese algo “mágico” que al enseñarlo nos haga sentirnos orgullosos
 
 
 <!--mas-->
@@ -23,32 +23,53 @@ En esto del desarrollo web hay que estar muy atento para tener siempre a mano re
 
 Y el primer ejemplo que os traemos es el desarrollo www.basoasuites.com realizado en nuestro Taller de Interzonas. Al cargar la web la casita de logo del proyecto se mueve de lado a lado hasta estabilizarse. Aunque ya escribiremos un artículo específico sobre este desarrollo.
 
+(Foto)
 
+Pero detrás de la “magia” siempre hay muchas horas dedicadas a observar y recopilar lo que otros y otras artesanos del código hacen, para posteriormente poder aplicarlo y adaptarlo a ese proyecto que tenemos entre manos.
 
-Este grupo, que forma parte de otros tres (Cultura libre, Aprendizajes Expandidos, Nuevos Artesanos) y que se realizan en [Hirikilabs](http://hirikilabs.tabakalera.eu/), intenta responder las formas de creación actuales. En este [post](http://blog.elfilo.net/articles/iniciamos-grupo-de-trabajo-sobre-c-digo-creativo-en-hirikilabs/) hice una primera introducción al grupo hace unos meses.
+Y hoy precisamente os traemos varios de esos ejemplos chulos chulos con javascript que hemos ido recopilando en nuestra Comunidad de Taller de Interzonas (Enlace). 
 
-Nuestro grupo empieza a tener su pequeño recorrido. La primera idea que teníamos en el grupo parecía simple, responder a la pregunta *¿Qué es el código creativo?*
+Efecto chulo para navegar con imágenes grandes [Ver ejemplo](http://tholman.com/intense-images/) 
 
-Para ello, en la primera sesión se nos ocurrió que para poder responder a esta pregunta estaría bien hacer un documento compartido donde poner las referencias que nos parezcan interesantes y que sirva para poder realizar una *Cartografía del ecosistema del código creativo*. Creamos [este documento](https://docs.google.com/spreadsheets/d/1CUbI6_OxTLjyHadK3bLHj6CZf13g9ktnzrizvV5t0JM/pubhtml?gid=0&single=true) donde hicimos una primera recopilación de referencias. También creamos un sistema de categorías con dos niveles, pero en la segunda sesión nos dimos cuenta que teníamos que trabajar más esta *categorización* ya que puede quedar pobre. Seguiremos avanzando en el documento y mejorando la taxonomía.
+Sistema de preloader para web http://gianlucaguarini.github.io/jquery.html5loader/
 
-El debate es complejo y en consecuencia difícil resumirlo, pero este artículo puede valer como un *grosso modo*.
+Detección de elementos (caras, formas etc), con muy buenos ejemplos http://kcy.me/18nme
 
-El sistema capitalista genera caminos de una sola dirección y en esa hiper-especialización los espacios creativos o formas de expresión son difíciles de ser transitados. Vamos a poner un par de ejemplos simples, pero válidos. Las personas que hacen la carrera musical adquieren las capacidades técnicas para tocar un instrumento pero en ese camino suelen quedar atrofiadas las capacidades para la improvisación. En el mundo del desarrollo de software pasa algo parecido. La *productividad* manda y aunque *los mercados* siempre buscan elementos diferenciales la realidad es que no paramos de hacer lo mismo, y en consecuencia obtenemos los mismos resultados.
+Gestión de media queries muy muy guapo ﻿ http://wicky.nillia.ms/enquire.js/
 
-Mientras tanto hay escenas y ambientes donde se trabajan constantemente la experimentación artística, nuevas formas de interacción, la representación y metáfora, pero que no son permeables al resto del mundo. En estos ambientes la endogamia también es la norma, creando tendencias repetitivas que se pueden confundir con procesos artísticos, pero que en muchos casos son más bien expresiones de la técnica.
+Gestión de transiciones y animaciones css3 con jquery http://ricostacruz.com/jquery.transit/
 
-La forma sutil pero a su vez compleja en la que el *sistema* nos dice cómo tenemos que ser y hacer, llega a ser tan contundente que es muy difícil por ejemplo encontrar mujeres en algunos entornos donde el arte y la tecnología se mezclan. En la sesión hablamos del caso del [live coding](http://toplap.org/), pero podrían haber otros tanto ejemplos. Las mujeres no transitan estos ambientes por una cuestión de género y eso es un claro indicio de que algo raro ocurre en nuestros procesos de "aprendizaje", y por supuesto no tiene nada que ver con capacidades o patrañas biológicas. El código creativo a nuestro ver está atravesado por este debate interesante y complejo al que de alguna manera hay que hincarle el diente.
+Preciosos efectos de recursividad ﻿ http://spintank.fr/spinlab/spin/
 
-Un punto clave del grupo es que tenemos que reflejar que sólo mirándonos de frente podremos mezclarnos y avanzar hacía lugares comunes donde el código se use como forma de expresión común y no parcial como lo vemos ahora.
+Gestión de animación por javascript mediante el scroll﻿ http://scrollrevealjs.org/ 
 
-Otro debate apasionante pero tenebroso es el relativo al código: ¿qué es código? ¿qué es programar? ¿qué es código creativo? ¿qué es arte? etc. Y buff... obviamente no tenemos respuestas. Lo que sí vemos claro, es que un conjunto no pequeño de personas necesitan del "código" para poder expresarse, para poder contar historias y esto es apasionante. Pero no sólo es apasionante por los resultados finales en "obras artísticas", sino también en la forma de escribir código. Aquí rescatamos la tendencia de algunos programadores de hablar de artesanos del software en detrimento de ingenieros. ¿Y qué pasaría si juntáramos a artistas, creadores, con artesanos del software? ¿Y si les hiciéramos resolver los mismos problemas? Esta es una línea de trabajo muy clara, y queremos ponerla en práctica.
+Sistema de partículas simple http://codepen.io/jasonmayes/pen/eKhAk
 
-El grupo de trabajo puede imaginar qué puentes son necesarios para unir caminos. Nos queda mucho trabajo. Pero se intuyen muchas posibilidades
+Plugin de JQuery que permite crear un carrusel responsivo muy chulo https://github.com/OwlFonk/OwlCarousel
 
+Detección del nivel responsivo en el que se está con jquery y bootstrap http://codepen.io/dih/pen/ivECj ﻿
 
-*O hacemos código o somos código lo mismo da. La programación tiene que ser expandida tiene que atravesarnos*
+Ejemplos de hovers molones http://gudh.github.io/ihover/dist/index.html
 
-Karlos G.Liberal
-@patxangas
+Cumplir la ley con CookieCuttr.js http://blog.endeos.com/cumplir-ley-cookies-con-cookiecuttr/﻿
+
+Efectos canvas en javascript muy guapos http://seenjs.io/index.html 
+
+Mostrar animaciones según te desplazas por la página http://www.miguelmanchego.com/2014/jquery-mostrar-animaciones-segun-te-desplazas-por-la-pagina/﻿
+
+La libería Sticker.js es una librería de javascript que te permite crear el efecto “pegajoso” http://webtoolsdepot.com/sticker-js-create-sticker-effects/﻿
+
+Otro sistema de paralax﻿ http://prinzhorn.github.io/skrollr/ 
+
+Youtube pop-out﻿ http://lab.abhinayrathore.com/jquery_youtube/
+
+Menu curioso y parallax impecable #js #parallax  ﻿http://cyclemon.com/
+
+Un plugin precioso para hacer que el color de fondo lo pille del color dominante de una imagen ﻿http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/
+
+Esperamos que os gusten y os sean útiles.
+
+Y vosotros/as ¿tenéis más ejemplos chulos?
+
 
 
