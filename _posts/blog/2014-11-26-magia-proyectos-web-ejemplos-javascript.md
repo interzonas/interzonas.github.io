@@ -14,12 +14,16 @@ menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 ---
 
 
-¿Es posible usar el código como una forma de expresión artística?
+Poniéndole magia a los proyectos web. Recopilación de ejemplos de Javascript
 
 
 <!--mas-->
 
-Esta pregunta es una de tantas que estamos intentando responder en el grupo de trabajo sobre Código Creativo, el cual, estamos teniendo la suerte de coordinarlo desde Interzonas (bueno sobre todo yo, [Karlos g Liberal](https://twitter.com/patxangas)).
+En esto del desarrollo web hay que estar muy atento para tener siempre a mano recursos que aporten detalles “únicos” y especiales a los proyectos. Todos deseamos que nuestra web o aplicación tenga ese algo “mágico” que al enseñarlo nos haga sentirnos orgullosos. Pero la “magia” tiene que tener un sentido, ir acorde a los objetivos, a la marca, al estilo, a los textos… 
+
+Y el primer ejemplo que os traemos es el desarrollo www.basoasuites.com realizado en nuestro Taller de Interzonas. Al cargar la web la casita de logo del proyecto se mueve de lado a lado hasta estabilizarse. Aunque ya escribiremos un artículo específico sobre este desarrollo.
+
+
 
 Este grupo, que forma parte de otros tres (Cultura libre, Aprendizajes Expandidos, Nuevos Artesanos) y que se realizan en [Hirikilabs](http://hirikilabs.tabakalera.eu/), intenta responder las formas de creación actuales. En este [post](http://blog.elfilo.net/articles/iniciamos-grupo-de-trabajo-sobre-c-digo-creativo-en-hirikilabs/) hice una primera introducción al grupo hace unos meses.
 
