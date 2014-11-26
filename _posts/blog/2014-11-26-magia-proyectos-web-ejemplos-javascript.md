@@ -6,7 +6,7 @@ subtitulo: Interzonas
 date: 2014-11-26 12:22:00
 tipo: blog
 categories: blog
-image: magia.png
+image: magia.jpg
 published: true
 big: 1
 columna: 0
