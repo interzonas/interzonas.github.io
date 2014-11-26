@@ -46,8 +46,8 @@ Y hoy precisamente os traemos varios de esos ejemplos chulos chulos con javascri
 * La libería Sticker.js es una librería de javascript que te permite crear el efecto “pegajoso” [Ver ejemplo](http://webtoolsdepot.com/sticker-js-create-sticker-effects/﻿)
 * Otro sistema de paralax﻿ [Ver ejemplo](http://prinzhorn.github.io/skrollr/) 
 * Youtube pop-out﻿ [Ver ejemplo](http://lab.abhinayrathore.com/jquery_youtube/)
-* Menu curioso y parallax impecable #js #parallax  ﻿[Ver ejemplo](http://cyclemon.com/)
-* Un plugin precioso para hacer que el color de fondo lo pille del color dominante de una imagen ﻿[Ver ejemplo](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/)
+* Menu curioso y parallax impecable [Ver ejemplo](http://cyclemon.com/)
+* Un plugin precioso para hacer que el color de fondo sea del color dominante de una imagen ﻿[Ver ejemplo](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/)
 
 Esperamos que os gusten y os sean útiles.
 
