@@ -21,7 +21,7 @@ Todos deseamos que nuestra web o aplicación tenga ese algo “mágico” que al
 
 En esto del desarrollo web hay que estar muy atento para tener siempre a mano recursos que aporten detalles “únicos” y especiales a los proyectos. Todos deseamos que nuestra web o aplicación tenga ese algo “mágico” que al enseñarlo nos haga sentirnos orgullosos. Pero la “magia” tiene que tener un sentido, ir acorde a los objetivos, a la marca, al estilo, a los textos… 
 
-Y el primer ejemplo que os traemos es el desarrollo www.basoasuites.com realizado en nuestro Taller de Interzonas. Al cargar la web la casita de logo del proyecto se mueve de lado a lado hasta estabilizarse. Aunque ya escribiremos un artículo específico sobre este desarrollo.
+Y el primer ejemplo que os traemos es el desarrollo [www.basoasuites.com](http://www.basoasuites.com) realizado en nuestro Taller de Interzonas. Al cargar la web la casita de logo del proyecto se mueve de lado a lado hasta estabilizarse. Aunque ya escribiremos un artículo específico sobre este desarrollo.
 
 (Foto)
 
@@ -29,13 +29,13 @@ Pero detrás de la “magia” siempre hay muchas horas dedicadas a observar y r
 
 Y hoy precisamente os traemos varios de esos ejemplos chulos chulos con javascript que hemos ido recopilando en nuestra Comunidad de Taller de Interzonas (Enlace). 
 
-Efecto chulo para navegar con imágenes grandes [Ver ejemplo](http://tholman.com/intense-images/) 
+* Efecto chulo para navegar con imágenes grandes [Ver ejemplo](http://tholman.com/intense-images/) 
 
-Sistema de preloader para web http://gianlucaguarini.github.io/jquery.html5loader/
+* Sistema de preloader para web http://gianlucaguarini.github.io/jquery.html5loader/
 
-Detección de elementos (caras, formas etc), con muy buenos ejemplos http://kcy.me/18nme
+* Detección de elementos (caras, formas etc), con muy buenos ejemplos http://kcy.me/18nme
 
-Gestión de media queries muy muy guapo ﻿ http://wicky.nillia.ms/enquire.js/
+* Gestión de media queries muy muy guapo ﻿ http://wicky.nillia.ms/enquire.js/
 
 Gestión de transiciones y animaciones css3 con jquery http://ricostacruz.com/jquery.transit/
 
