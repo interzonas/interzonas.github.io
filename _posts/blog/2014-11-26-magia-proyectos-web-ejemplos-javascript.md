@@ -30,7 +30,7 @@ Y el primer ejemplo que os traemos es el desarrollo [www.basoasuites.com](http:/
 
 Pero detrás de la “magia” siempre hay muchas horas dedicadas a observar y recopilar lo que otros y otras artesanos del código hacen, para posteriormente poder aplicarlo y adaptarlo a ese proyecto que tenemos entre manos.
 
-Y hoy precisamente os traemos varios de esos ejemplos chulos chulos con javascript que hemos ido recopilando en nuestra Comunidad de Taller de Interzonas (Enlace). 
+Y hoy precisamente os traemos varios de esos ejemplos chulos chulos con javascript que hemos ido recopilando en nuestra [Comunidad de Taller de Interzonas](https://plus.google.com/u/0/communities/111517140959507912763). 
 
 * Efecto chulo para navegar con imágenes grandes [Ver ejemplo](http://tholman.com/intense-images/)
 * Sistema de preloader para web [Ver ejemplo](http://gianlucaguarini.github.io/jquery.html5loader/)
