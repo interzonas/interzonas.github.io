@@ -24,7 +24,7 @@ En esto del desarrollo web hay que estar muy atento para tener siempre a mano re
 Y el primer ejemplo que os traemos es el desarrollo [www.basoasuites.com](http://www.basoasuites.com) realizado en nuestro Taller de Interzonas. Al cargar la web la casita de logo del proyecto se mueve de lado a lado hasta estabilizarse. Aunque ya escribiremos un artículo específico sobre este desarrollo.
 
 <div class="img-wrapper">
-  <img src="{{site.url}}/images/basoasuites-logo.png" class="img-responsive" alt="Responsive image">
+  <img src="{{site.url}}/images/basoasuiteslogo.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Logo de Basoa Suites</div>
 </div>
 
