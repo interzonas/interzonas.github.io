@@ -28,7 +28,7 @@ Para el taller usamos una tira de leds direccionables rgb con el chip ws2811 est
 
 Información técnica de como funciona la tira de led rgb [https://learn.sparkfun.com/tutorials/ws2812-breakout-hookup-guide/addressable-led-strips] (https://learn.sparkfun.com/tutorials/ws2812-breakout-hookup-guide/addressable-led-strips)
 
-Los matariales usados son:
+Los materiales usados son:
 
 * Placa protoboard
 * Jumppers (varios)
