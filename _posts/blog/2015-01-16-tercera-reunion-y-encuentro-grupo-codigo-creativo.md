@@ -52,7 +52,7 @@ A continuación comenzamos con la presentación. [Diana Franco](https://twitter.
 
 Tras la presentación, un grupo de personas invitadas a los encuentros también nos aportaron "sus" puntos de vista. Invitamos a más personas pero lo cierto es que fuimos un poco tarde y no pudieron asistir (para el próximo encuentro lo haremos mejor).
 
-Abelardo G. Fournier fue quien abrió la ronda de invitados, quien al no poder estar el sábado le grabamos para que nos diese su respuesta a "Qué entiendo por código creativo".
+[Abelardo G. Fournier](http://abelardogfournier.org/) fue quien abrió la ronda de invitados, quien al no poder estar el sábado le grabamos para que nos diese su respuesta a "Qué entiendo por código creativo".
 
 <iframe src="//player.vimeo.com/video/116947393" width="660" height="371" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="img-footer"><p><a href="http://vimeo.com/116947393">Abelardo G. Fournier @ TE014T</a> from <a href="http://vimeo.com/teknotrakitana">Teknotrakitana</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
