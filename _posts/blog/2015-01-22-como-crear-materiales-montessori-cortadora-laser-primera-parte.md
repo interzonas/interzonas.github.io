@@ -6,7 +6,7 @@ subtitulo: Interzonas / Iruña-Donosti
 date: 2015-01-23 12:22:00
 tipo: talleres
 categories: talleres
-image: letras2.jpg
+image: letras1.jpg
 published: true
 big: 1
 columna: 0
