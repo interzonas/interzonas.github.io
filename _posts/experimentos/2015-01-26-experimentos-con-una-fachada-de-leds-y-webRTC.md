@@ -99,13 +99,13 @@ Para simplificar todo este proceso hemos usado [Peerjs](http://peerjs.com/). Com
 Peerjs ofrece un servicio en la nube para gestionar toda la parte de las firmas y la verdad es que simplifica mucho la implementación. 
 
 
-Como hemos comentado todo el código (es purito prototipo) se puede ver en [github](https://github.com/karlosgliberal/screeCaptureWebRTC/).
+Como hemos comentado todo el código (es __purito__ prototipo) se puede ver en [github](https://github.com/karlosgliberal/screeCaptureWebRTC/).
 
 Nuestro proyecto es un tanto especial ya que webRTC admite múltiples forma de conectar los peer/pares y nosotros hemos cerrado esta posibilidad, de manera que sólo puede haber un cliente y una app al mismo tiempo, ya que en nuestro caso sólo un artista puede emitir en la fachada. 
 
 Por nuestra parte, en [Interzonas](http://interzonas.info) nos hemos quedado muy contentos, tanto con el resultado como con la forma de llevarlo a cabo. Poder ofrecer soluciones concretas para espacios tan especiales tiene mucho potencial. Y una vez más demostramos que las tecnologías web son un lugar de confluencia.
 
-Muchas gracias a Néstor y Guillermo, artistas residentes de Etopia, por todo el curro y la atención recibida.
+Muchas gracias a Néstor y Guillermo, artistas residentes de Etopia y Juan Pradas, por todo el curro y la atención recibida.
 
 
 
