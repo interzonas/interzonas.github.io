@@ -24,7 +24,7 @@ Y en estos temas me encanta escuchar a [Koldo Saratxaga](http://www.k2kemocionan
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rx5fKKQ2gzs" frameborder="0" allowfullscreen></iframe>
 
-Así es como entendemos también este tema de la educación en nuestro Interzonas Labs. Y así es como lo estamos recogiendo en algunos de los proyectos que tenemos en marcha, así como en otros que estamos preparando y esperamos poder contaros próximamente. 
+Así es como entendemos también este tema de la educación en nuestro Interzonas Labs. Y así es como lo estamos recogiendo en [algunos de los proyectos](http://labs.interzonas.info/articles/como-crear-materiales-montessori-cortadora-laser-primera-parte) que tenemos en marcha, así como en otros que estamos preparando y esperamos poder contaros próximamente. 
 
 Dicho todo esto, os invito a leer el post que he escrito en el [blog del Cesto de los Tesoros](http://tienda.cestodelostesoros.com/blogs/blog-el-cesto-de-los-tesoros-de-bjek) hablando sobre la escuela el Martinet y el documental que han hecho sobre ella. ¿Qué tiene de especial esta escuela? Pues que considera que las niñas y niños son protagonistas de su propio proceso de aprendizaje. En mi opinión es un proyecto educativo que permite que los niños y niñas desarrollen la capacidad de aprender, de resolver situaciones, desde la diversidad y la colaboración. Capacidades que les acompañarán toda la vida y que construirán una sociedad más abierta,creativa, tolerante y capaz. En términos empresariales podríamos decir que el resultado de todo esto sería más innovación. 
 
