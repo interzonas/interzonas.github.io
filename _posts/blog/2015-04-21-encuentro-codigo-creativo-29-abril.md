@@ -20,7 +20,7 @@ Seguimos con los encuentros sobre Código Creativo en Hirikilabs. En esta ocasi�
 
 El pasado 24 de marzo realizamos el primer encuentro sobre código creativo de esta segunda temporada en Hirikilabs. Presentamos ___[Buscando el código perfecto Tributo](http://labs.interzonas.info/articles/buscando-el-codigo-perfecto-tributo/)___ y el planteamiento para este nuevo año. 
 
-La idea es diferente al año pasado cuando, aunque se hicieron sesiones abiertas, el grupo de trabajo era cerrado. Este año el grupo de Código Creativo es abierto con el objetivo de ir creando una comunidad. Nos juntaremos todos los meses para darle continuidad y seguir trabajando estos temas. Como decía, la primera sesión fue la del mes pasado, y la segunda tendrá lugar el próximo miércoles día 29 a las 18:30 en [Hirikilabs](http://hirikilabs.tabakalera.eu). 
+La idea es diferente al año pasado cuando, aunque se hicieron sesiones abiertas, el grupo de trabajo era cerrado. Este año el grupo de Código Creativo es abierto con el objetivo de ir creando comunidad. Nos juntaremos todos los meses para darle continuidad y seguir trabajando estos temas. Como decía, la primera sesión fue la del mes pasado, y la segunda tendrá lugar el próximo miércoles día 29 a las 18:30 en [Hirikilabs](http://hirikilabs.tabakalera.eu). 
 
 Hasta que se establezca la dinámica del grupo el formato de las primeras sesiones consistirá en la presentación de un tema a cargo de una persona invitada, y a partir de ahí esperamos que eso derive en una conversación o debate al respecto.
 
