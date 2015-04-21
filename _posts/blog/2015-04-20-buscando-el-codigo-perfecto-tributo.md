@@ -17,7 +17,7 @@ Buscando el código perfecto, Tributo. Distintos soportes para mostrar el result
 
 <!--mas-->
 
-En el marco del encuentro [Café Europa](http://www.tabakalera.eu/programa/cafe-europa-creative-code/) el martes 24 de abril presentamos en Hirikilabs el proyecto ___Buscando el código perfecto. Tributo___. Tras un año de trabajo discutiendo entorno a qué es el código creativo y ver sus relaciones, queríamos poder plasmarlo de una manera diferente. 
+En el marco del encuentro [Café Europa](http://www.tabakalera.eu/programa/cafe-europa-creative-code/) el martes 24 de marzo presentamos en Hirikilabs el proyecto ___Buscando el código perfecto. Tributo___. Tras un año de trabajo discutiendo entorno a qué es el código creativo y ver sus relaciones, queríamos poder plasmarlo de una manera diferente. 
 
 Y para ello, en primer lugar, construimos un panel móvil.
 
