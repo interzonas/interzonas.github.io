@@ -13,31 +13,35 @@ columna: 0
 menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 ---
 
-Buscando el código perfecto, Tributo. Es el resultado del trabajo realizado en el grupo de código creativo del [hirikilabs](http://hirikilabs.tabakalera.eu/), que hemos creado en distintos soportes.
+Buscando el código perfecto, Tributo. Distintos soportes para mostrar el resultado del trabajo realizado en el grupo de Código Creativo de Hirikilabs.
 
 <!--mas-->
 
-El martes 24 de abril presentamos en hirikilabs dentro den encuentro [cafe europa](http://www.tabakalera.eu/programa/cafe-europa-creative-code/) el proyecto ___Buscando el codigo perfecto| Tributo___. Tras un año de trabajo discutiendo entorno a que es el código creativo y ver sus relaciones, queríamos poder plasmar algo de ese trabajo. El resultado lo podemos ver en este panel móvil.
+En el marco del encuentro [Café Europa](http://www.tabakalera.eu/programa/cafe-europa-creative-code/) el martes 24 de abril presentamos en Hirikilabs el proyecto ___Buscando el código perfecto. Tributo___. Tras un año de trabajo discutiendo entorno a qué es el código creativo y ver sus relaciones, queríamos poder plasmarlo de una manera diferente. 
+
+Y para ello, en primer lugar, construimos un panel móvil.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/tributo/cctratada.jpg" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Panel móvil. Tributo</div>
 </div>
 
-También creamos un "panfleto" que lo hemos llevado a la web, donde explicamos que es el tributo.
+En segundo lugar, redactamos y publicamos un "panfleto" donde explicamos qué es el Tributo. Y por último, nos ocupamos de convertirlo en código llevándolo a la web.
 
 [codigocreativo.info/tributo](http://codigocreativo.info/tributo).
 
-Y aquí un vídeo previo a la presentación
+Compartimos también el vídeo previo a la presentación.
 
 <iframe src="https://player.vimeo.com/video/123393809?byline=0&portrait=0" width="660" height="371" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/123393809">Karlos G. Liberal. Cafe Europa. Creative Code</a> from <a href="https://vimeo.com/tabakalera">Tabakalera</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
-Este [trabajo es coral](http://codigocreativo.info/tributo/#colaboradores) son muchas las personas y colectivos que han participado. Y yo ([karlos](https://twitter.com/patxangas)) he tenido la suerte de poder coordinar.
+Este [trabajo es coral](http://codigocreativo.info/tributo/#colaboradores). Son muchas las personas y colectivos que han participado. Y yo ([Karlos](https://twitter.com/patxangas)) he tenido la suerte de poder coordinar.
 
-Uno de los trabajos que nos encargamos de realizar en [interzonas labs](http://labs.interzonas.info) fue la creación del panel. Os paso una serie de fotos del resultado.
+<h2>Más detalles sobre el panel móvil</h2>
 
-El panel lo hicimos con la empresa [tresatres](http://tresatres.com/) se encargaron de imprimir y hacer los cortes de los círculos interiores del panel y nosotros ideamos el sistema para poder mover los círculos interiores.
+Uno de los trabajos que nos encargamos de realizar en [Interzonas labs](http://labs.interzonas.info) fue la creación del panel. Os paso una serie de fotos del resultado.
+
+El panel lo hicimos con la empresa [tresatres](http://tresatres.com/) quienes se encargaron de imprimir y hacer los cortes de los círculos interiores del panel y nosotros ideamos el sistema de movimiento de los círculos interiores.
 
 <div class="img-wrapper">
   <img src="{{site.url}}/images/tributo/1.jpg" class="img-responsive" alt="Responsive image">
@@ -110,16 +114,9 @@ El panel lo hicimos con la empresa [tresatres](http://tresatres.com/) se encarga
 </div>
 
 
-Queríamos hacer una pieza especial que nos permitiera seguir trabando en estos temas. Este panel es un primero panel se dice que esta la idea de que los círculos se mueva automáticamente. Pero bueno es ya llegará
+Queríamos hacer una pieza especial que nos permitiera seguir trabajando en estos temas. Este panel es una primera versión, y dicen los rumores que en la próxima los círculos se moverán automáticamente. Pero bueno, ya llegará :-).
 
-[codigocreativo.info/tributo](http://codicreativo.info/tributo)
-
-
-En el la presentación del tributo también presentamos lo que queremos hacer esta año en el grupo. La idea es diferente al año pasado que aunque se hicieron sesiones abierta el grupo de trabajo era cerrado. Este año el grupo de código creativo es abierto queremos ir creando una comunidad entorno a estos temas.
-
-Vamos a juntarnos todos los meses, para poder darle una continuidad y poder trabajar estos temas. La primera sesión fue la del mes pasado. La de este mes es el día 26 miércoles a las 18:30 en Hirikilbas. 
-
-El formato de las primeras sesiones hasta que veamos cual es la dinámica del grupo consistirá en una presentación de un tema a cargo de una persona invitada y que eso derive en una conversación o debate al respecto. 
+¿No tenéis curiosidad por leer el Tributo? [codigocreativo.info/tributo](http://codicreativo.info/tributo)
 
 
 
