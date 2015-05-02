@@ -299,4 +299,8 @@ Veremos un listado de directorios por emuladores, en nuestro caso nos interesa a
   <div class="img-footer">Directorio para subir la rom</div>
 </div>
 
+Actualización abril 2015:
+
+Si queréis imprimir la carcasa podéis descargar el fichero en [este enlace de Arquimaña](http://arquimaña.com/works/pimame/).
+
 <!--fin-->
