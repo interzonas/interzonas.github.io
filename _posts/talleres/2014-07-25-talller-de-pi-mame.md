@@ -227,7 +227,7 @@ Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar 
 
 Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas. Las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
 
-En nuestro caso para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para Raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
+En nuestro caso para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución específica para Raspberry pi [Piplay](http://www.pimame.org) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
 
 Nuestro Arcade que se enfoca en el emulador MAME funciona sin teclado.
 
