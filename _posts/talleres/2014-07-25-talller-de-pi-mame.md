@@ -263,7 +263,7 @@ Aquí en el menú de asignaciones de teclas, nosotros hemos modificado el P1 But
 
 En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) tenemos un foro de discusión sobre roms de MAME que funcionan correctamente en la Raspberry pi
 
-[http://coolrom.com/](coolrom.com) Es la web con un gran cantidad de juegos para nuestros emuladores
+[coolrom.com](http://coolrom.com/) Es la web con un gran cantidad de juegos para nuestros emuladores
 
 <!--fin-->
 
