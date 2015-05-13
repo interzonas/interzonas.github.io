@@ -227,7 +227,7 @@ Para esta Arcade hacemos uso de distintos emuladores que nos permitirán cargar 
 
 Multiple Arcade Machine Emulator («emulador de múltiples máquinas recreativas»), más conocido por sus siglas MAME, es un emulador de máquinas recreativas. Las máquinas de videojuegos que funcionan con monedas que suelen estar en lugares públicos (bares, boleras, salones recreativos, etc.). Para hacer funcionar un juego, se requiere su correspondiente ROM (archivo con una imagen de la ROM de la máquina, que contiene el juego en sí). Mame es un programa de código abierto y gratuito si se utiliza sin ánimo de lucro. (Wikipedia)
 
-En nuestro caso para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución especifica para Raspberry pi [http://www.pimame.org](Piplay) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
+En nuestro caso para poder hacer funcionar la Mame (y otros emuladores) usamos una distribución específica para Raspberry pi [Piplay](http://www.pimame.org) con un entorno gráfico para lanzar diversos emuladores y gestionar roms.
 
 Nuestro Arcade que se enfoca en el emulador MAME funciona sin teclado.
 
@@ -263,7 +263,7 @@ Aquí en el menú de asignaciones de teclas, nosotros hemos modificado el P1 But
 
 En este [enlace](http://www.raspberrypi.org/forums/viewtopic.php?f=78&t=29427) tenemos un foro de discusión sobre roms de MAME que funcionan correctamente en la Raspberry pi
 
-[http://coolrom.com/](coolrom.com) Es la web con un gran cantidad de juegos para nuestros emuladores
+[coolrom.com](http://coolrom.com/) Es la web con un gran cantidad de juegos para nuestros emuladores
 
 <!--fin-->
 
@@ -298,5 +298,9 @@ Veremos un listado de directorios por emuladores, en nuestro caso nos interesa a
   <img src="{{site.url}}/images/tres.png" class="img-responsive" alt="Responsive image">
   <div class="img-footer">Directorio para subir la rom</div>
 </div>
+
+Actualización abril 2015:
+
+Si queréis imprimir la carcasa podéis descargar el fichero en [este enlace de Arquimaña](http://arquimaña.com/works/pimame/).
 
 <!--fin-->
