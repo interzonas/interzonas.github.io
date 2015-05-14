@@ -6544,12 +6544,27 @@ a:hover {
 }
 .texto-logo-dos {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
-  border: 1px solid #09a2d3;
+  /*border: 1px solid #09a2d3;*/
   padding: 13px 0px;
   margin: 25px 23px;
 }
+
+.texto-logo-dos a:hover{
+  background:#09a2d3 ;
+  color: #ffffff;
+} 
+
+.texto-logo-dos a{
+  background: #f13d0a;
+  color: #ffffff;
+  padding: 13px;
+  margin: 25px;
+  text-decoration:none;
+
+}
+
 .img-responsive-logo {
   max-width: 100%;
   height: auto;
