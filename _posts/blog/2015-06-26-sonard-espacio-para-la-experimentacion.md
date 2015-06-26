@@ -32,15 +32,22 @@ Desde [interzonas](http://labs.interzonas.info) tenemos claro que el futuro pasa
 
 En el SonarD pudimos ver y hablar con personas que están en estas nuevas escenas, donde lo creativo, artístico y tecnológico van de la mano. Empresas que conectan a científicos con artistas. Colectivos artísticos que también son empresas. Instalaciones híbridas, que ofrecen en la misma un producto, una experiencia y un servicio.
 
-Desde [interzonas](http://labs.interzonas.info) tenemos claro que tenemos que seguir explorando estos nuevos horizontes, estamos obligados. La web se contrae, la industria clásica rehusa modelos que le permiten rentabilidades pobres y conocidas, pero sobre todo insuficiente, extremadamente aburrida e injustas. Este podría ser el resumen de la charla de el gran [Bruce Sterling](http://brucesterling.tumblr.com/). La industria nos quiere de una manera, y lo tenemos difícil para salirnos del redil, pero no imposible. 
+Desde [interzonas](http://labs.interzonas.info) tenemos claro que tenemos que seguir explorando estos nuevos horizontes, estamos obligados. La web se contrae, la industria clásica rehusa modelos que le permiten rentabilidades pobres y conocidas, pero sobre todo insuficiente, extremadamente aburrida e injustas. Este podría ser el resumen de la charla de el gran [Bruce Sterling](http://brucesterling.tumblr.com/). La industria nos quiere de una manera, y lo tenemos difícil para salirnos del redil, pero no imposible.
+
+
+<div class="img-wrapper">
+  <img src="{{site.url}}/images/patxandsterling.jpg" class="img-responsive" alt="Patxanas And Sterling">
+  <div class="img-footer">El de la camiseta es Patxangas el fan, el otro el guru</div>
+</div>
 
 Creo que un párrafo del propio Sterling nos dice cual es el lugar hacia donde nos dirigimos
 
 
-_"Debemos prepararnos para tomar el control creativo de la época venidera. Una época tan poéticamente rica como infinitamente victoriosa, tan cargada de significado que sólo aquellos preparados para sumergirse en el cataclismo transcenderán esa singularidad.
-Algún día, haremos que no tenga poder todo el odio de lo maravilloso. Lo admirable de lo fantástico es que el contenido se convierte en el contenedor; lo fantástico infiltra irresistiblemente lo cotidiano. Sólo es cuestión de tiempo, y el tiempo es nuestro recurso inagotable. Ya no queda fuerza en la normalidad; sólo rutina."_
+_Debemos prepararnos para tomar el control creativo de la época venidera. Una época tan poéticamente rica como infinitamente victoriosa, tan cargada de significado que sólo aquellos preparados para sumergirse en el cataclismo transcenderán esa singularidad._
 
-El fuego sagrado -Bruce Sterling-
+_Algún día, haremos que no tenga poder todo el odio de lo maravilloso. Lo admirable de lo fantástico es que el contenido se convierte en el contenedor; lo fantástico infiltra irresistiblemente lo cotidiano. Sólo es cuestión de tiempo, y el tiempo es nuestro recurso inagotable. Ya no queda fuerza en la normalidad; sólo rutina._
+
+[El fuego sagrado -Bruce Sterling-](http://www.ciencia-ficcion.com/opinion/op00944.htm)
 
 
 
