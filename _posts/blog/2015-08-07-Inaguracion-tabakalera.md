@@ -1,7 +1,7 @@
 ---
 layout: entrada
 category: post
-title: "TABAKALERA. Centro internacional de Cultura Contemporánea"
+title: "Inauguramos Tabakalera. Centro internacional de Cultura Contemporánea"
 subtitulo: Donostia
 date: 2015-08-07 10:00:00
 tipo: post
