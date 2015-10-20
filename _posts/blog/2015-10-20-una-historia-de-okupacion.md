@@ -14,11 +14,10 @@ menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 ---
 
 
-En enero se cumplirán 2 años desde que Interzonas, con Karlos y Aitor a la cabeza, llegaba a Biko con la “bandera okupa”. Desde entonces hemos construido experiencias y vivido realidades que hoy os vamos a contar.
-
+En enero se cumplirán 2 años desde que Interzonas, con Karlos y Aitor a la cabeza, llegaba a Biko con la “bandera okupa”. 
 <!--mas-->
 
-En enero se cumplirán [2 años](http://blog.elfilo.net/articles/desayuno-presentacion-de-interzonas-en-biko/) desde que Interzonas, con Karlos y Aitor a la cabeza, llegaba a [Biko](http://www.biko2.com/) con la “bandera okupa”.
+Desde entonces hemos construido experiencias y vivido realidades que hoy os vamos a contar.
 
 Y lo hacían tan sólo con una idea, la de explorar y experimentar nuevas formas de relación y de colaboración. Idea sobre la cual hemos construido experiencias y vivido realidades que creemos merecen ser compartidas.
 
