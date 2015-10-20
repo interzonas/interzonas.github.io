@@ -45,7 +45,7 @@ En las clásicas relaciones entre empresas siempre se establecen conversaciones 
 ¿Y cómo lo estamos haciendo? Estas son algunas de las claves sobre las que estamos construyendo estas nuevas experiencias de colaboración:
 
 
-* Transparencia y comunicación: Desde el minuto uno las personas de Biko nos demostraron su carácter abierto y honesto, buscando que sintiéramos su casa como nuestra casa. Y de la misma manera, nosotros que llegamos como unos caracoles con su c
+* Transparencia y comunicación: Desde el minuto uno las personas de Biko nos demostraron su carácter abierto y honesto, buscando que sintiéramos su casa como nuestra casa. 
 
 * Colaborar como una premisa básica y “obligatoria”. Buscando y/o creando oportunidades y sinergias sin formalismos ni grandes proyectos. 
 
@@ -57,7 +57,7 @@ En las clásicas relaciones entre empresas siempre se establecen conversaciones 
 
 Lo primero de todo y más importante para pasarlo bien. También para aprender, para compartir experiencias y formas de trabajo, para obtener nuevos retos intelectuales y profesionales…
 
-Y en segundo lugar para aportar valor. Bien sabéis que si por algo nos caracterizamos en Interzonas es por explorar y experimentar porque sabemos que es la manera de aportar valor en el desarrollo de los proyectos. Y en este caso además, porque tener a Biko y al resto de “okupas” (Iker, Gorka, Pablo de 540, Miriam, Victor, Eduardo Valencia) como socios multiplica infinitamente todas nuestras posibilidades y capacidades para seguir creciendo y ofrecer lo mejor de lo mejor.
+Y en segundo lugar para aportar valor. Bien sabéis que si por algo nos caracterizamos en Interzonas es por explorar y experimentar porque sabemos que es la manera de aportar valor en el desarrollo de los proyectos. Y en este caso además, porque tener a Biko y al resto de “okupas” ([Iker](https://twitter.com/wricka69), [Gorka](https://twitter.com/gorkma), [Pablo](https://twitter.com/pabloalbizu) de [540](http://540deg.com/), Miriam, [Victor](http://ningunaparte.net/), [Eduardo Valencia](http://www.eduardovalencia.com/)) como socios multiplica infinitamente todas nuestras posibilidades y capacidades para seguir creciendo y ofrecer lo mejor de lo mejor.
 
 
 **¿Fin de la historia?**
