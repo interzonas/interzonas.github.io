@@ -15,6 +15,7 @@ menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"></div>"
 
 
 En enero se cumplirán 2 años desde que Interzonas, con Karlos y Aitor a la cabeza, llegaba a Biko con la “bandera okupa”. 
+
 <!--mas-->
 
 Desde entonces hemos construido experiencias y vivido realidades que hoy os vamos a contar.
