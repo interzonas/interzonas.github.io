@@ -18,7 +18,6 @@ En enero se cumplirán 2 años desde que Interzonas, con Karlos y Aitor a la cab
 
 <!--mas-->
 
-Desde entonces hemos construido experiencias y vivido realidades que hoy os vamos a contar.
 
 Y lo hacían tan sólo con una idea, la de explorar y experimentar nuevas formas de relación y de colaboración. Idea sobre la cual hemos construido experiencias y vivido realidades que creemos merecen ser compartidas.
 
