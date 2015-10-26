@@ -1,7 +1,7 @@
 ---
 layout: entrada
 category: post
-title: "Atentos a las charlas y talleres de este mes en interzonas"
+title: "Atentos a las charlas y talleres de este mes en Interzonas"
 subtitulo: Interzonas / Iruña
 date: 2015-10-25 12:21:04
 tipo: blog
