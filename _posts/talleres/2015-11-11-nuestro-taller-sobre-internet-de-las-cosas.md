@@ -22,8 +22,6 @@ menu: "<div class=\"col-sm-3 hidden-xs columna-rigth\"> <div class=\"mon affix-t
   <div class="img-footer">Cartel presentación del taller en tabakalera</div>
 </div>
 
-Si estas interesado en un taller teórico/político/práctico sobre Internet de las Cosas [ponte en contacto con nosotros/as](http://interzonas.info/#contactar).
-
 
 En Interzonas usamos este laboratorio para poder experimentar con tendencias (en la mayoría tecnológicas, pero no siempre). Estos experimentos nos aportan unos conocimientos y experiencia que luego usamos de distintas maneras. Una de estas maneras es la creación de un taller donde aplicamos lo aprendido y lo testeamos con más personas. Esto ya lo hemos realizado en otras ocasiones un ejemplo sería este taller: [Como montar tu propia arcade con Raspberry Pi y MAME](http://labs.interzonas.info/articles/talller-de-pi-mame/).
 
