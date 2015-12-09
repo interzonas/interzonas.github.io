@@ -27,7 +27,7 @@ Si estas interesado en un taller teórico/político/práctico sobre Internet de 
 
 En Interzonas usamos este laboratorio para poder experimentar con tendencias (en la mayoría tecnológicas, pero no siempre). Estos experimentos nos aportan unos conocimientos y experiencia que luego usamos de distintas maneras. Una de estas maneras es la creación de un taller donde aplicamos lo aprendido y lo testeamos con más personas. Esto ya lo hemos realizado en otras ocasiones un ejemplo sería este taller: [Como montar tu propia arcade con Raspberry Pi y MAME](http://labs.interzonas.info/articles/talller-de-pi-mame/).
 
-Este artículo recoge el material tanto teórico como práctico de nuestro taller sobre "Internet de las Cosas", también llamado IoT del inglés "Internet of Things".
+Este artículo recoge el material teórico/práctico de nuestro taller sobre "Internet de las Cosas" (Llamado IoT del inglés "Internet of Things").
 
 <!--Antecedentes-->
 <a name="antecedentes"></a>
@@ -84,7 +84,7 @@ Por lo tanto, la realidad es que los objetos, las cosas, van a tener la posibili
 
 Otra posible definición es la creada por Bruce Sterling hace ya algunos años y que para ello acuñó el término de Spime:
 
-<BLOCKQUOTE><strong>Spime</strong> para definir aquellos objetos físicos tan informacionalmente significados que informan sobre la línea temporal de su vida como productos (sus materiales, sus autores, sus dueños actuales y pasados, sus orígenes, su diseño, su entorno…)</BLOCKQUOTE>
+<BLOCKQUOTE><strong>Spime</strong> para definir aquellos objetos físicos tan informacionalmente significados que informan sobre la línea temporal de su vida como productos (sus materiales, sus autores, sus dueños actuales y pasados, sus orígenes, su diseño, su entorno…) </BLOCKQUOTE>
 
 Bruce Sterling imagina un mundo donde los objetos tiene la posibilidad de significar su existencia. Es una visión mas posibilista, donde la propia idea del objeto es algo más y ese más puede ser revisado.
 
@@ -277,7 +277,7 @@ A partir de aquí, empezamos a trabajar con la placa Phonton de Particles:
   <div class="img-footer">Interfaz de gestión de photones en la web de Particles </div>
 </div>
 
-Si estás interesado en este taller ponte en contacto con nosotros. <a class=\"btn btn-orange btn-primary\" href=\"mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs\" role=\"button\">Escríbenos</a>
+Si estás interesado en este taller ponte en contacto con nosotros.<br> <a class="btn btn-orange btn-primary" href="mailto:hola@interzonas.info?subject=Contacto desde Interzonas-labs" role=\"button\">Escríbenos</a>
 
 
 
