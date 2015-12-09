@@ -137,7 +137,7 @@ Cada día están saliendo productos nuevos, algunos con una propuesta muy clara,
 
 Pero en el hardware también está habiendo una gran revolución, tanto en componentes electrónicos, como en hardware multipropósito. Por supuesto la estela de Arduino ha sido fundamental, muchos proyectos han seguido esa estela añadiendo sus innovaciones específicas.
 
-En nuestro caso optamos por el producto [Photon](https://store.particle.io/) de [Particle](http://www.particle.io/) como hardware para nuestro taller. Aunque es cierto que cada día sale un hardware nuevo con propuestas completamente diferentes.
+En nuestro caso optamos por el producto [Photon](https://store.particle.io/) de [Particle](http://www.particle.io/) como hardware para nuestro taller. Aunque cada día sale un hardware nuevo con propuestas completamente diferentes.
 
 Lo cierto es que con una raspberry-pi y un módulo wifi, podremos montar un dispositivo IoT sin problemas, aunque los hardware específicos están aportando elementos que simplifican sobre todo la fase de prototipado.
 
