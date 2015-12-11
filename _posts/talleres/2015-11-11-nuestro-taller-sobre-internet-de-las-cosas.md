@@ -6,7 +6,7 @@ subtitulo: Interzonas / Iruña
 date: 2015-11-11 11:11:11
 tipo: blog
 categories: blog
-image: iot/cabeceraiot.jpg
+image: iot/talller-photon.jpg
 published: true
 big: 1
 columna: 0
